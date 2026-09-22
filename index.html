@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topf und Tempo — der Mitkoch-Podcast</title>
+<meta name="description" content="Topf und Tempo: Kochpodcast zum Mitkochen. Ein Gericht pro Folge, rund zehn Minuten, alltagstauglich für Familien und Berufstätige.">
+<meta property="og:title" content="Topf und Tempo — der Mitkoch-Podcast">
+<meta property="og:description" content="Ein Gericht pro Folge. Rund zehn Minuten. Zum Mitkochen.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍲</text></svg>">
+<style>
+  :root{
+    --bg:#fbf7f0; --surface:#ffffff; --ink:#1d1b19; --muted:#6b6560;
+    --accent:#c8442c; --accent-soft:#f6e3dd; --line:#e7ded1; --teal:#12433f;
+    --radius:16px; --maxw:960px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#14120f; --surface:#1d1a16; --ink:#f2ede4; --muted:#a79f93;
+      --accent:#ef7156; --accent-soft:#3a201a; --line:#2e2922;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#14120f; --surface:#1d1a16; --ink:#f2ede4; --muted:#a79f93;
+    --accent:#ef7156; --accent-soft:#3a201a; --line:#2e2922;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    font-size:18px; line-height:1.65; -webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 16px}
+  h1,h2,h3,.ui{font-family:"Helvetica Neue",Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+
+  header.site{border-bottom:1px solid var(--line); background:var(--surface)}
+  .bar{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 0}
+  .brand{font-weight:800; letter-spacing:-.02em; font-size:19px; text-decoration:none; color:var(--ink)}
+  .brand span{color:var(--accent)}
+  nav a{color:var(--muted); text-decoration:none; font-size:15px; margin-left:18px}
+  nav a:hover{color:var(--accent)}
+
+  .hero{padding:64px 0 48px; border-bottom:1px solid var(--line)}
+  .hero-grid{display:grid; grid-template-columns:1.15fr .85fr; gap:40px; align-items:center}
+  .eyebrow{display:inline-block; font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); background:var(--accent-soft); padding:6px 12px; border-radius:99px; font-weight:700}
+  h1{font-size:clamp(34px,6vw,58px); line-height:1.05; letter-spacing:-.03em; margin:18px 0 14px}
+  .lead{font-size:20px; color:var(--muted); margin:0 0 26px; max-width:46ch}
+  .btns{display:flex; flex-wrap:wrap; gap:10px}
+  .btn{display:inline-block; padding:12px 20px; border-radius:99px; text-decoration:none; font-weight:700;
+    font-size:15px; font-family:"Helvetica Neue",Inter,system-ui,sans-serif; border:1.5px solid var(--accent)}
+  .btn-primary{background:var(--accent); color:#fff}
+  .btn-ghost{color:var(--accent); background:transparent}
+  .btn:hover{opacity:.88}
+  .cover{width:100%; aspect-ratio:1/1; border-radius:var(--radius); overflow:hidden;
+    border:1px solid var(--line); box-shadow:0 18px 40px rgba(0,0,0,.12); background:var(--teal)}
+  .cover svg{display:block; width:100%; height:100%}
+  .note{font-size:14px; color:var(--muted); margin-top:10px}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line)}
+  h2{font-size:clamp(24px,3.4vw,32px); letter-spacing:-.02em; margin:0 0 8px}
+  .sec-lead{color:var(--muted); margin:0 0 28px; max-width:60ch}
+
+  .facts{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+  .fact{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:20px}
+  .fact .n{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:28px; color:var(--accent); letter-spacing:-.02em}
+  .fact .t{color:var(--muted); font-size:15px; margin-top:4px}
+
+  .ep{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:24px; margin-bottom:18px}
+  .ep-head{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap}
+  .ep-num{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:13px; letter-spacing:.12em;
+    color:#fff; background:var(--accent); padding:4px 10px; border-radius:99px}
+  .ep h3{margin:0; font-size:22px; letter-spacing:-.02em}
+  .ep-meta{color:var(--muted); font-size:14px; margin:10px 0 12px; font-family:"Helvetica Neue",Inter,sans-serif}
+  .ep p.desc{margin:0 0 14px}
+  details{border-top:1px dashed var(--line); padding-top:12px; margin-top:6px}
+  summary{cursor:pointer; font-family:"Helvetica Neue",Inter,sans-serif; font-weight:700; font-size:15px; color:var(--accent)}
+  .cols{display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:14px}
+  .cols h4{font-family:"Helvetica Neue",Inter,sans-serif; font-size:13px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--muted); margin:0 0 8px}
+  ul.zut{margin:0; padding-left:20px; font-size:16px}
+  ul.zut li{margin-bottom:4px}
+  ol.kap{margin:0; padding-left:20px; font-size:16px; color:var(--muted)}
+  ol.kap li{margin-bottom:4px}
+
+  .hosts{display:grid; grid-template-columns:1fr 1fr; gap:20px}
+  .host{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px}
+  .host .name{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:19px; margin-bottom:6px}
+  .host .role{color:var(--accent); font-size:14px; font-family:"Helvetica Neue",Inter,sans-serif; margin-bottom:10px}
+
+  .tricks{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+  .trick{background:var(--accent-soft); border-radius:var(--radius); padding:20px}
+  .trick .k{font-family:"Helvetica Neue",Inter,sans-serif; font-size:12px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--accent); font-weight:700}
+  .trick p{margin:8px 0 0; font-size:16px}
+
+  footer{padding:40px 0 56px; color:var(--muted); font-size:15px}
+  footer a{color:var(--accent)}
+
+  @media (max-width:760px){
+    .hero-grid{grid-template-columns:1fr} .facts{grid-template-columns:1fr}
+    .cols{grid-template-columns:1fr} .hosts{grid-template-columns:1fr}
+    .tricks{grid-template-columns:1fr} nav{display:none}
+    .hero{padding:40px 0 32px} section{padding:40px 0}
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="#">Topf <span>&amp;</span> Tempo</a>
+    <nav class="ui">
+      <a href="#folgen">Folgen</a>
+      <a href="#tricks">Tempo-Tricks</a>
+      <a href="#ueber">Über uns</a>
+      <a href="#abo">Abonnieren</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Neuer Podcast</span>
+      <h1>Ein Gericht. Zehn Minuten. Zum Mitkochen.</h1>
+      <p class="lead">Kein Zuhören und Vornehmen. Du stellst das Handy auf die Arbeitsplatte, wir reden im Tempo, in dem du wirklich schneiden kannst — und am Ende steht das Abendessen auf dem Tisch.</p>
+      <div class="btns">
+        <a class="btn btn-primary" href="#folgen">Folgen ansehen</a>
+        <a class="btn btn-ghost" href="#abo">Abonnieren</a>
+      </div>
+      <p class="note">Für Familien und Berufstätige. Normale Zutaten, normale Küche, ein Topf wo es geht.</p>
+    </div>
+    <div class="cover">
+      <svg viewBox="0 0 400 400" role="img" aria-label="Cover von Topf und Tempo">
+        <defs>
+          <clipPath id="sq"><rect width="400" height="400"/></clipPath>
+        </defs>
+        <g clip-path="url(#sq)">
+          <rect width="400" height="400" fill="#12433f"/>
+          <path d="M400 0 L400 400 L150 400 Z" fill="#e0561f"/>
+          <g fill="none" stroke="#f6efe2" stroke-width="7" stroke-linecap="round">
+            <path d="M156 92 h88 a6 6 0 0 1 6 6 v34 a24 24 0 0 1 -24 24 h-52 a24 24 0 0 1 -24 -24 v-34 a6 6 0 0 1 6 -6 z"/>
+            <path d="M150 104 h-16"/><path d="M250 104 h16"/>
+            <path d="M181 74 c0 -10 10 -10 10 -20"/>
+            <path d="M200 70 c0 -12 10 -12 10 -24"/>
+            <path d="M219 74 c0 -10 10 -10 10 -20"/>
+          </g>
+          <text x="200" y="232" text-anchor="middle" fill="#f6efe2"
+                font-family="Helvetica Neue, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">TOPF &amp;</text>
+          <text x="200" y="292" text-anchor="middle" fill="#f6efe2"
+                font-family="Helvetica Neue, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">TEMPO</text>
+          <rect x="140" y="320" width="120" height="34" rx="17" fill="#e0561f"/>
+          <text x="200" y="344" text-anchor="middle" fill="#ffffff"
+                font-family="Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">PODCAST</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<section id="zahlen">
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><div class="n">10 Min</div><div class="t">pro Folge — kürzer als das Kochen</div></div>
+      <div class="fact"><div class="n">1 Gericht</div><div class="t">komplett durchgekocht, nicht angerissen</div></div>
+      <div class="fact"><div class="n">2 Stimmen</div><div class="t">eine kocht routiniert, eine fragt nach</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="folgen">
+  <div class="wrap">
+    <h2>Die ersten drei Folgen</h2>
+    <p class="sec-lead">Drei Gerichte, drei Methoden: ein Topf, der Vorrat, das Blech. Wer die drei kann, kommt durch jede Woche. Zutatenliste jeweils aufklappen und vorher einkaufen.</p>
+
+    <article class="ep">
+      <div class="ep-head"><span class="ep-num">Folge 1</span><h3>One-Pot-Pasta — ein Topf, zwanzig Minuten, kein Abwasch</h3></div>
+      <div class="ep-meta">für 4 Personen · ein Topf · 20 Minuten Kochzeit</div>
+      <p class="desc">Nudeln, Soße und Gemüse in einem einzigen Durchgang. Warum das Nudelwasser die beste Soßenbasis ist, wie viel Zucker in die Tomate darf und welcher Handgriff acht Kirschtomaten in einem Zug halbiert.</p>
+      <details>
+        <summary>Zutaten und Kapitel</summary>
+        <div class="cols">
+          <div><h4>Zutaten (4 Personen)</h4>
+            <ul class="zut">
+              <li>500 g kurze Nudeln</li><li>1 Dose stückige Tomaten (400 g)</li>
+              <li>250 g Kirschtomaten</li><li>2 Knoblauchzehen, 1 Zwiebel</li>
+              <li>150 g Blattspinat (frisch oder TK)</li><li>1 l Gemüsebrühe</li>
+              <li>3 EL Olivenöl, 1 TL Oregano</li><li>Salz, Pfeffer, Prise Zucker</li>
+              <li>100 g Parmesan oder Pecorino</li>
+            </ul></div>
+          <div><h4>Kapitel</h4>
+            <ol class="kap">
+              <li>Einstieg</li><li>Zutaten-Check</li><li>Vorbereiten</li><li>Ansetzen</li>
+              <li>Tempo-Trick: Tisch zuerst</li><li>Fertigstellen</li><li>Variante und Reste</li>
+            </ol></div>
+        </div>
+      </details>
+    </article>
+
+    <article class="ep">
+      <div class="ep-head"><span class="ep-num">Folge 2</span><h3>Kichererbsen-Curry — das Gericht für den leeren Kühlschrank</h3></div>
+      <div class="ep-meta">für 4 Personen · aus dem Vorrat · 25 Minuten Kochzeit</div>
+      <p class="desc">Drei Dosen, eine Zwiebel, fertig. Warum Gewürze ins Öl gehören und nicht in die Flüssigkeit, warum der Reis zuerst aufgesetzt wird und welcher Spritzer am Ende den größten Unterschied macht.</p>
+      <details>
+        <summary>Zutaten und Kapitel</summary>
+        <div class="cols">
+          <div><h4>Zutaten (4 Personen)</h4>
+            <ul class="zut">
+              <li>2 Dosen Kichererbsen (je 400 g)</li><li>1 Dose Kokosmilch (400 ml)</li>
+              <li>1 Dose stückige Tomaten (400 g)</li><li>1 Zwiebel, 2 Knoblauchzehen</li>
+              <li>1 Stück Ingwer oder 1 TL Paste</li><li>2 EL Currypulver oder -paste</li>
+              <li>1 TL Kreuzkümmel, ½ TL Kurkuma</li><li>Saft einer halben Zitrone</li>
+              <li>250 g Reis</li>
+            </ul></div>
+          <div><h4>Kapitel</h4>
+            <ol class="kap">
+              <li>Einstieg</li><li>Zutaten-Check</li><li>Reis zuerst</li><li>Gewürzbasis</li>
+              <li>Köcheln</li><li>Tempo-Trick: Dosen-Schublade</li><li>Abschmecken</li>
+            </ol></div>
+        </div>
+      </details>
+    </article>
+
+    <article class="ep">
+      <div class="ep-head"><span class="ep-num">Folge 3</span><h3>Das Blech — Hähnchen und Gemüse aus dem Ofen</h3></div>
+      <div class="ep-meta">für 4 Personen · 10 Minuten Arbeit, 40 Minuten Ofen</div>
+      <p class="desc">Das Gericht, bei dem du die Küche verlassen darfst. Warum Keule besser ist als Brust, warum ein zu volles Blech alles ruiniert und wie ein zweites Blech den nächsten Kochabend überflüssig macht.</p>
+      <details>
+        <summary>Zutaten und Kapitel</summary>
+        <div class="cols">
+          <div><h4>Zutaten (4 Personen)</h4>
+            <ul class="zut">
+              <li>8 Hähnchenunterschenkel (ca. 1 kg)</li><li>600 g festkochende Kartoffeln</li>
+              <li>2 Paprika, 1 Zucchini</li><li>1 rote Zwiebel, 1 Zitrone</li>
+              <li>4 EL Olivenöl</li><li>2 TL Paprikapulver edelsüß</li>
+              <li>1 TL Thymian, 2 Knoblauchzehen</li><li>200 g Joghurt für den Dip</li>
+            </ul></div>
+          <div><h4>Kapitel</h4>
+            <ol class="kap">
+              <li>Einstieg</li><li>Zutaten-Check</li><li>Schneiden nach Garzeit</li><li>Marinieren</li>
+              <li>Blech belegen</li><li>Tempo-Trick: das zweite Blech</li><li>Gartest</li>
+            </ol></div>
+        </div>
+      </details>
+    </article>
+  </div>
+</section>
+
+<section id="tricks">
+  <div class="wrap">
+    <h2>Tempo-Tricks aus den Folgen</h2>
+    <p class="sec-lead">In jeder Folge ein Handgriff, der den Abend kürzer macht. Hier stehen sie zum Nachlesen.</p>
+    <div class="tricks">
+      <div class="trick"><div class="k">Folge 1</div>
+        <p><strong>Deck den Tisch jetzt.</strong> Der teuerste Zeitfresser ist die Lücke danach: Essen fertig, und alle suchen noch Teller. Nutze die Kochzeit, in der du ohnehin am Topf stehst.</p></div>
+      <div class="trick"><div class="k">Folge 2</div>
+        <p><strong>Die Dosen-Schublade.</strong> Sechs Dosen immer doppelt da, leer heißt sofort auf den Einkaufszettel. Dann gibt es an jedem Abend mindestens ein Gericht, das ohne Einkauf geht.</p></div>
+      <div class="trick"><div class="k">Folge 3</div>
+        <p><strong>Das zweite Blech.</strong> Der Ofen läuft sowieso. Ein Blech Gemüse dazu ist morgen Beilage, übermorgen Salat, am Freitag Suppe — und spart einen ganzen Kochabend.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="ueber">
+  <div class="wrap">
+    <h2>Wer hier redet</h2>
+    <p class="sec-lead">Zwei Stimmen, klare Rollen. Eine weiß, wie es geht. Eine fragt das, was man sich sonst nicht zu fragen traut.</p>
+    <div class="hosts">
+      <div class="host">
+        <div class="name">Mira</div>
+        <div class="role">kocht seit zwanzig Jahren jeden Abend</div>
+        <p>Erklärt das Warum hinter jedem Handgriff, gibt das Tempo vor und sagt auch, wo ein Rezept schwächelt. Ihre Faustregel: Was stur ist, kommt zuerst.</p>
+      </div>
+      <div class="host">
+        <div class="name">Jonas</div>
+        <div class="role">kocht mit, mit wenig Zeit und vielen Fragen</div>
+        <p>Steht selbst um sieben in der Küche, testet alles live mit und fragt nach, wenn ein Schritt in der Praxis nicht so glatt läuft wie in der Theorie.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="abo">
+  <div class="wrap">
+    <h2>Abonnieren</h2>
+    <p class="sec-lead">Jeden Dienstag eine neue Folge. Die Links stehen hier, sobald der Feed bei den Plattformen durch ist.</p>
+    <div class="btns">
+      <a class="btn btn-ghost" href="#">Spotify</a>
+      <a class="btn btn-ghost" href="#">Apple Podcasts</a>
+      <a class="btn btn-ghost" href="#">RSS-Feed</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Topf und Tempo</strong> — der Mitkoch-Podcast. Kontakt und Impressum folgen.</p>
+    <p class="note">Hinweis zu Geflügel: Kerntemperatur 75 Grad, Hände und Brett nach dem Kontakt mit rohem Fleisch heiß spülen. Rohes Hähnchen nicht waschen.</p>
+  </div>
+</footer>
+
+</body>
+</html>
