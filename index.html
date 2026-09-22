@@ -159,6 +159,24 @@
   .wm .t span{font-size:13px; color:var(--muted)}
   .wm audio{width:100%}
   @media (max-width:820px){ .wm{grid-template-columns:1fr 1fr} }
+
+  /* unterstuetzen */
+  .cf{background:var(--deep); color:#eaf2f0; border-radius:22px; padding:36px; display:grid; grid-template-columns:1.1fr .9fr; gap:36px; align-items:center; box-shadow:var(--shadow)}
+  .cf h3{margin:0 0 10px; font-size:clamp(26px,3.4vw,38px); letter-spacing:-.025em; color:#fff; line-height:1.1}
+  .cf p{margin:0 0 14px; color:#c9d8d4; font-size:17px}
+  .cf .goal{display:flex; align-items:baseline; gap:12px; margin:6px 0 14px}
+  .cf .goal b{font-family:"Helvetica Neue",Inter,sans-serif; font-size:46px; letter-spacing:-.03em; color:var(--accent)}
+  .cf .goal span{font-size:15px; color:#9db4b0; font-family:"Helvetica Neue",Inter,sans-serif}
+  .cf .bar{height:10px; background:#0d322f; border-radius:99px; overflow:hidden; margin-bottom:8px}
+  .cf .bar i{display:block; height:100%; width:0%; background:var(--accent); border-radius:99px}
+  .cf .stat{font-size:14px; color:#9db4b0; font-family:"Helvetica Neue",Inter,sans-serif; margin-bottom:18px}
+  .cf .btns{margin-top:6px}
+  .rw{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+  .rw div{background:#0d322f; border-radius:14px; padding:14px 16px}
+  .rw b{display:block; font-family:"Helvetica Neue",Inter,sans-serif; font-size:22px; color:var(--accent)}
+  .rw span{font-size:14px; color:#c9d8d4; line-height:1.4; display:block}
+  .cf-note{font-size:14px; color:var(--muted); margin:14px 0 0}
+  @media (max-width:820px){ .cf{grid-template-columns:1fr} .rw{grid-template-columns:1fr 1fr} }
   footer{padding:44px 0 60px; color:var(--muted); font-size:15px}
   footer a{color:var(--accent)}
   .fgrid{display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap}
@@ -190,6 +208,7 @@
       <a href="#tricks">Tempo-Tricks</a>
       <a href="#hosts">Wir</a>
       <a href="#werbemittel">Werbemittel</a>
+      <a href="#unterstuetzen">Unterstützen</a>
       <a href="#abo">Abonnieren</a>
     </nav>
   </div>
@@ -721,6 +740,38 @@
       <a href="marketing/Spotify-Audio-Ad_30s.mp3" target="_blank" rel="noopener"><div class="th" style="padding:18px"><audio controls preload="none" src="marketing/Spotify-Audio-Ad_30s.mp3"></audio></div><div class="t"><b>Spotify-Audio-Ad</b><span>30 Sekunden, Mira und Jonas</span></div></a>
       <a href="https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd" target="_blank" rel="noopener"><div class="th"><img src="cover.jpg" alt="Cover" loading="lazy"></div><div class="t"><b>Cover</b><span>3000 × 3000, für Plattformen und Presse</span></div></a>
     </div>
+  </div>
+</section>
+
+<section id="unterstuetzen">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Crowdfunding</div>
+      <h2>Hilf uns, die erste Staffel voll zu machen</h2>
+      <p class="sec-lead">Drei Folgen sind fertig. Zehn sollen es werden — jede ein Gericht für Dienstagabend. Die Kampagne startet auf Startnext; hier siehst du Ziel, Stand und Dankeschöns.</p>
+    </div>
+    <div class="cf">
+      <div>
+        <h3>Zehn Folgen. Zehn Gerichte. Dein Abendessen.</h3>
+        <p>Das Geld geht in Produktion und Vermarktung von Staffel 1: sieben weitere Folgen, Spotify-Ads, Plakate an Pendlerstrecken, ein Live-Kochabend.</p>
+        <div class="goal"><b>5.000 €</b><span>Fundingziel · 40 Tage · alles oder nichts</span></div>
+        <div class="bar"><i id="cfBar"></i></div>
+        <div class="stat" id="cfStat">Kampagne in Vorbereitung — Start wird hier angekündigt</div>
+        <div class="btns">
+          <a class="btn btn-primary" id="cfLink" href="#abo">Bald auf Startnext</a>
+          <a class="btn btn-ghost" href="https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd" target="_blank" rel="noopener">Erst mal reinhören</a>
+        </div>
+      </div>
+      <div class="rw">
+        <div><b>5 €</b><span>Dein Name in den Shownotes</span></div>
+        <div><b>15 €</b><span>Rezept-PDF „Die ersten zehn"</span></div>
+        <div><b>25 €</b><span>PDF + Postkarten-Set + Name in der Folge</span></div>
+        <div><b>50 €</b><span>+ gedrucktes Rezeptheft + Kochlöffel</span></div>
+        <div><b>100 €</b><span>Du bestimmst ein Gericht für Staffel 2</span></div>
+        <div><b>250 €</b><span>Kochabend mit Mira &amp; Jonas per Video</span></div>
+      </div>
+    </div>
+    <p class="cf-note">Die Stimmen von Mira und Jonas sind KI-generiert. Rezepte, Tempo-Tricks und jede Folge sind von Hand geschrieben und in einer echten Küche getestet.</p>
   </div>
 </section>
 
