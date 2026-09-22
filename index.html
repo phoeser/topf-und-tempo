@@ -3,104 +3,167 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Topf und Tempo — der Mitkoch-Podcast</title>
-<meta name="description" content="Topf und Tempo: Kochpodcast zum Mitkochen. Ein Gericht pro Folge, rund zehn Minuten, alltagstauglich für Familien und Berufstätige.">
-<meta property="og:title" content="Topf und Tempo — der Mitkoch-Podcast">
-<meta property="og:description" content="Ein Gericht pro Folge. Rund zehn Minuten. Zum Mitkochen.">
+<title>Topf &amp; Tempo — der Mitkoch-Podcast</title>
+<meta name="description" content="Topf &amp; Tempo: Kochpodcast zum Mitkochen. Ein Gericht pro Folge, rund 9 Minuten, alltagstauglich für Familien und Berufstätige.">
+<meta property="og:title" content="Topf &amp; Tempo — der Mitkoch-Podcast">
+<meta property="og:description" content="Ein Gericht pro Folge. Zum Mitkochen. Für Familien und Berufstätige.">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍲</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2312433f'/><circle cx='50' cy='56' r='24' fill='none' stroke='%23e0561f' stroke-width='7'/><rect x='30' y='30' width='40' height='7' rx='3.5' fill='%23f4efe6'/></svg>">
 <style>
   :root{
-    --bg:#fbf7f0; --surface:#ffffff; --ink:#1d1b19; --muted:#6b6560;
-    --accent:#c8442c; --accent-soft:#f6e3dd; --line:#e7ded1; --teal:#12433f;
-    --radius:16px; --maxw:960px;
+    --bg:#f6f1e7; --surface:#ffffff; --ink:#15211f; --muted:#5d6b68;
+    --deep:#12433f; --deep-2:#0d322f; --accent:#e0561f; --accent-soft:#fbe5d8;
+    --line:#e2dbcc; --sand:#f0e7d6;
+    --radius:18px; --maxw:1000px;
+    --shadow:0 20px 44px rgba(18,67,63,.13);
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --bg:#14120f; --surface:#1d1a16; --ink:#f2ede4; --muted:#a79f93;
-      --accent:#ef7156; --accent-soft:#3a201a; --line:#2e2922;
+      --bg:#0e1614; --surface:#152220; --ink:#eef3f0; --muted:#9bada9;
+      --deep:#0c2b28; --deep-2:#081e1c; --accent:#ff7a45; --accent-soft:#33201a;
+      --line:#23332f; --sand:#1a2826;
+      --shadow:0 20px 44px rgba(0,0,0,.45);
     }
   }
   :root[data-theme="dark"]{
-    --bg:#14120f; --surface:#1d1a16; --ink:#f2ede4; --muted:#a79f93;
-    --accent:#ef7156; --accent-soft:#3a201a; --line:#2e2922;
+    --bg:#0e1614; --surface:#152220; --ink:#eef3f0; --muted:#9bada9;
+    --deep:#0c2b28; --deep-2:#081e1c; --accent:#ff7a45; --accent-soft:#33201a;
+    --line:#23332f; --sand:#1a2826;
+    --shadow:0 20px 44px rgba(0,0,0,.45);
   }
   *{box-sizing:border-box}
-  body{margin:0; background:var(--bg); color:var(--ink);
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
     font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
-    font-size:18px; line-height:1.65; -webkit-font-smoothing:antialiased}
+    font-size:18px; line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
   .wrap{max-width:var(--maxw); margin:0 auto; padding:0 16px}
-  h1,h2,h3,.ui{font-family:"Helvetica Neue",Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+  h1,h2,h3,h4,.ui,.sans{font-family:"Helvetica Neue",Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+  img,svg{max-width:100%}
 
-  header.site{border-bottom:1px solid var(--line); background:var(--surface)}
-  .bar{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 0}
-  .brand{font-weight:800; letter-spacing:-.02em; font-size:19px; text-decoration:none; color:var(--ink)}
-  .brand span{color:var(--accent)}
-  nav a{color:var(--muted); text-decoration:none; font-size:15px; margin-left:18px}
-  nav a:hover{color:var(--accent)}
+  /* header */
+  header.site{position:sticky; top:0; z-index:20; background:var(--deep); color:#f4efe6}
+  .bar{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:13px 0}
+  .brand{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; letter-spacing:-.02em;
+    font-size:19px; text-decoration:none; color:#f4efe6; display:flex; align-items:center; gap:9px}
+  .brand .dot{width:11px; height:11px; border-radius:50%; background:var(--accent); flex:0 0 auto}
+  nav.ui a{color:#c9d8d4; text-decoration:none; font-size:15px; margin-left:20px}
+  nav.ui a:hover{color:#fff}
 
-  .hero{padding:64px 0 48px; border-bottom:1px solid var(--line)}
-  .hero-grid{display:grid; grid-template-columns:1.15fr .85fr; gap:40px; align-items:center}
-  .eyebrow{display:inline-block; font-size:13px; letter-spacing:.14em; text-transform:uppercase;
-    color:var(--accent); background:var(--accent-soft); padding:6px 12px; border-radius:99px; font-weight:700}
-  h1{font-size:clamp(34px,6vw,58px); line-height:1.05; letter-spacing:-.03em; margin:18px 0 14px}
-  .lead{font-size:20px; color:var(--muted); margin:0 0 26px; max-width:46ch}
+  /* hero */
+  .hero{background:var(--deep); color:#f4efe6; padding:56px 0 64px; overflow:hidden}
+  .hero-grid{display:grid; grid-template-columns:1.05fr .95fr; gap:44px; align-items:center}
+  .eyebrow{display:inline-flex; align-items:center; gap:8px; font-family:"Helvetica Neue",Inter,sans-serif;
+    font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:#fff;
+    background:var(--accent); padding:7px 14px; border-radius:99px; font-weight:800}
+  h1{font-size:clamp(36px,6.4vw,62px); line-height:1.02; letter-spacing:-.035em; margin:20px 0 16px; color:#fff}
+  h1 em{font-style:normal; color:var(--accent)}
+  .lead{font-size:20px; color:#c9d8d4; margin:0 0 28px; max-width:44ch}
   .btns{display:flex; flex-wrap:wrap; gap:10px}
-  .btn{display:inline-block; padding:12px 20px; border-radius:99px; text-decoration:none; font-weight:700;
-    font-size:15px; font-family:"Helvetica Neue",Inter,system-ui,sans-serif; border:1.5px solid var(--accent)}
+  .btn{display:inline-block; padding:13px 22px; border-radius:99px; text-decoration:none; font-weight:700;
+    font-size:15px; font-family:"Helvetica Neue",Inter,sans-serif; border:1.5px solid var(--accent); transition:.15s}
   .btn-primary{background:var(--accent); color:#fff}
-  .btn-ghost{color:var(--accent); background:transparent}
-  .btn:hover{opacity:.88}
-  .cover{width:100%; aspect-ratio:1/1; border-radius:var(--radius); overflow:hidden;
-    border:1px solid var(--line); box-shadow:0 18px 40px rgba(0,0,0,.12); background:var(--teal)}
-  .cover svg{display:block; width:100%; height:100%}
-  .note{font-size:14px; color:var(--muted); margin-top:10px}
+  .btn-ghost{color:#fff; border-color:#4a706b; background:transparent}
+  .btn:hover{transform:translateY(-1px)}
+  .hero .note{font-size:14px; color:#9db4b0; margin-top:14px}
+  .coverbox{border-radius:22px; overflow:hidden; box-shadow:var(--shadow); background:var(--deep-2)}
+  .coverbox svg{display:block; width:100%; height:auto}
 
-  section{padding:56px 0; border-bottom:1px solid var(--line)}
-  h2{font-size:clamp(24px,3.4vw,32px); letter-spacing:-.02em; margin:0 0 8px}
-  .sec-lead{color:var(--muted); margin:0 0 28px; max-width:60ch}
+  /* facts strip */
+  .strip{background:var(--sand); border-bottom:1px solid var(--line)}
+  .facts{display:grid; grid-template-columns:repeat(3,1fr); gap:0}
+  .fact{padding:26px 22px; border-right:1px solid var(--line)}
+  .fact:last-child{border-right:0}
+  .fact .n{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:27px;
+    color:var(--deep); letter-spacing:-.025em}
+  :root[data-theme="dark"] .fact .n, .dark-n{color:var(--ink)}
+  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .fact .n{color:var(--ink)}}
+  .fact .t{color:var(--muted); font-size:15px; margin-top:2px}
 
-  .facts{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
-  .fact{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:20px}
-  .fact .n{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:28px; color:var(--accent); letter-spacing:-.02em}
-  .fact .t{color:var(--muted); font-size:15px; margin-top:4px}
+  section{padding:64px 0; border-bottom:1px solid var(--line)}
+  .sec-head{max-width:62ch; margin-bottom:32px}
+  h2{font-size:clamp(25px,3.6vw,34px); letter-spacing:-.025em; margin:0 0 10px}
+  .sec-lead{color:var(--muted); margin:0}
+  .kicker{font-family:"Helvetica Neue",Inter,sans-serif; font-size:12px; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--accent); font-weight:800; margin-bottom:10px}
 
-  .ep{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:24px; margin-bottom:18px}
-  .ep-head{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap}
-  .ep-num{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:13px; letter-spacing:.12em;
-    color:#fff; background:var(--accent); padding:4px 10px; border-radius:99px}
-  .ep h3{margin:0; font-size:22px; letter-spacing:-.02em}
-  .ep-meta{color:var(--muted); font-size:14px; margin:10px 0 12px; font-family:"Helvetica Neue",Inter,sans-serif}
-  .ep p.desc{margin:0 0 14px}
-  details{border-top:1px dashed var(--line); padding-top:12px; margin-top:6px}
+  /* episodes */
+  .ep{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+    overflow:hidden; margin-bottom:22px; box-shadow:0 2px 0 rgba(18,67,63,.04)}
+  .ep-top{display:grid; grid-template-columns:300px 1fr; gap:0; align-items:stretch}
+  .ep-art{background:var(--sand); border-right:1px solid var(--line); display:block}
+  .ep-art svg{display:block; width:100%; height:100%}
+  .ep-body{padding:24px 26px}
+  .ep-head{display:flex; align-items:center; gap:11px; flex-wrap:wrap}
+  .ep-num{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:12px; letter-spacing:.13em;
+    color:#fff; background:var(--deep); padding:5px 11px; border-radius:99px}
+  .ep-tag{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:700; font-size:12px; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--accent); background:var(--accent-soft); padding:5px 11px; border-radius:99px}
+  .ep h3{margin:12px 0 0; font-size:23px; letter-spacing:-.02em}
+  .ep-meta{color:var(--muted); font-size:14px; margin:8px 0 12px; font-family:"Helvetica Neue",Inter,sans-serif}
+  .ep p.desc{margin:0 0 16px}
+  audio{width:100%; margin:2px 0 4px; border-radius:99px}
+  .audio-note{font-size:13px; color:var(--muted); margin:0 0 10px}
+  details{border-top:1px dashed var(--line); padding-top:14px; margin-top:12px}
   summary{cursor:pointer; font-family:"Helvetica Neue",Inter,sans-serif; font-weight:700; font-size:15px; color:var(--accent)}
-  .cols{display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:14px}
-  .cols h4{font-family:"Helvetica Neue",Inter,sans-serif; font-size:13px; letter-spacing:.12em;
-    text-transform:uppercase; color:var(--muted); margin:0 0 8px}
+  summary::marker{color:var(--accent)}
+  .cols{display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:16px}
+  .cols h4{font-size:12px; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); margin:0 0 8px}
   ul.zut{margin:0; padding-left:20px; font-size:16px}
   ul.zut li{margin-bottom:4px}
   ol.kap{margin:0; padding-left:20px; font-size:16px; color:var(--muted)}
   ol.kap li{margin-bottom:4px}
 
-  .hosts{display:grid; grid-template-columns:1fr 1fr; gap:20px}
-  .host{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px}
-  .host .name{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:19px; margin-bottom:6px}
-  .host .role{color:var(--accent); font-size:14px; font-family:"Helvetica Neue",Inter,sans-serif; margin-bottom:10px}
+  /* methods */
+  .methods{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+  .method{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px; text-align:center}
+  .method svg{width:82px; height:82px; margin-bottom:6px}
+  .method .mt{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:17px; margin-bottom:4px}
+  .method p{margin:0; font-size:15px; color:var(--muted)}
 
-  .tricks{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
-  .trick{background:var(--accent-soft); border-radius:var(--radius); padding:20px}
-  .trick .k{font-family:"Helvetica Neue",Inter,sans-serif; font-size:12px; letter-spacing:.12em;
-    text-transform:uppercase; color:var(--accent); font-weight:700}
+  /* hosts */
+  .hosts{display:grid; grid-template-columns:1fr 1fr; gap:20px}
+  .host{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+    padding:22px; display:grid; grid-template-columns:88px 1fr; gap:18px; align-items:start}
+  .host svg{width:88px; height:88px}
+  .host .name{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:19px; margin-bottom:2px}
+  .host .role{color:var(--accent); font-size:14px; font-family:"Helvetica Neue",Inter,sans-serif; margin-bottom:8px}
+  .host p{margin:0; font-size:16px; color:var(--muted)}
+
+  /* tricks */
+  .tricks{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+  .trick{background:var(--deep); color:#eaf2f0; border-radius:var(--radius); padding:22px}
+  .trick .k{font-family:"Helvetica Neue",Inter,sans-serif; font-size:12px; letter-spacing:.13em;
+    text-transform:uppercase; color:var(--accent); font-weight:800}
   .trick p{margin:8px 0 0; font-size:16px}
 
-  footer{padding:40px 0 56px; color:var(--muted); font-size:15px}
-  footer a{color:var(--accent)}
+  /* subscribe */
+  .abo{background:var(--sand)}
+  .plats{display:flex; flex-wrap:wrap; gap:10px; margin-top:6px}
+  .plat{display:inline-flex; align-items:center; gap:9px; background:var(--surface); border:1px solid var(--line);
+    border-radius:99px; padding:11px 18px; text-decoration:none; color:var(--ink);
+    font-family:"Helvetica Neue",Inter,sans-serif; font-weight:700; font-size:15px}
+  .plat:hover{border-color:var(--accent); color:var(--accent)}
+  .plat span.d{width:9px; height:9px; border-radius:50%; background:var(--accent)}
 
-  @media (max-width:760px){
-    .hero-grid{grid-template-columns:1fr} .facts{grid-template-columns:1fr}
-    .cols{grid-template-columns:1fr} .hosts{grid-template-columns:1fr}
-    .tricks{grid-template-columns:1fr} nav{display:none}
-    .hero{padding:40px 0 32px} section{padding:40px 0}
+  footer{padding:44px 0 60px; color:var(--muted); font-size:15px}
+  footer a{color:var(--accent)}
+  .fgrid{display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap}
+
+  @media (max-width:820px){
+    .hero-grid{grid-template-columns:1fr; gap:32px}
+    .facts{grid-template-columns:1fr}
+    .fact{border-right:0; border-bottom:1px solid var(--line)}
+    .fact:last-child{border-bottom:0}
+    .ep-top{grid-template-columns:1fr}
+    .ep-art{border-right:0; border-bottom:1px solid var(--line); aspect-ratio:16/9}
+    .cols{grid-template-columns:1fr}
+    .hosts{grid-template-columns:1fr}
+    .tricks{grid-template-columns:1fr}
+    .methods{grid-template-columns:1fr}
+    nav.ui{display:none}
+    .hero{padding:36px 0 44px} section{padding:44px 0}
   }
 </style>
 </head>
@@ -108,194 +171,549 @@
 
 <header class="site">
   <div class="wrap bar">
-    <a class="brand" href="#">Topf <span>&amp;</span> Tempo</a>
+    <a class="brand" href="#top"><span class="dot"></span>Topf &amp; Tempo</a>
     <nav class="ui">
       <a href="#folgen">Folgen</a>
+      <a href="#methoden">Methoden</a>
       <a href="#tricks">Tempo-Tricks</a>
-      <a href="#ueber">Über uns</a>
+      <a href="#hosts">Wir</a>
       <a href="#abo">Abonnieren</a>
     </nav>
   </div>
 </header>
 
-<div class="hero">
+<div class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
       <span class="eyebrow">Neuer Podcast</span>
-      <h1>Ein Gericht. Zehn Minuten. Zum Mitkochen.</h1>
-      <p class="lead">Kein Zuhören und Vornehmen. Du stellst das Handy auf die Arbeitsplatte, wir reden im Tempo, in dem du wirklich schneiden kannst — und am Ende steht das Abendessen auf dem Tisch.</p>
+      <h1>Kochen im <em>Tempo</em>, in dem du wirklich schneiden kannst.</h1>
+      <p class="lead">Handy auf die Arbeitsplatte, Topf auf den Herd. Wir reden mit — nicht vor. Am Ende der Folge steht das Abendessen auf dem Tisch.</p>
       <div class="btns">
-        <a class="btn btn-primary" href="#folgen">Folgen ansehen</a>
+        <a class="btn btn-primary" href="#folgen">Folgen anhören</a>
         <a class="btn btn-ghost" href="#abo">Abonnieren</a>
       </div>
       <p class="note">Für Familien und Berufstätige. Normale Zutaten, normale Küche, ein Topf wo es geht.</p>
     </div>
-    <div class="cover">
-      <svg viewBox="0 0 400 400" role="img" aria-label="Cover von Topf und Tempo">
+    <div class="coverbox">
+      <!-- Cover-Illustration: eigene Gestaltung, Teal/Orange, zwei Moderatoren mit Kopfhörern -->
+      <svg viewBox="0 0 600 600" role="img" aria-label="Topf & Tempo Cover: zwei Moderatoren mit Kopfhörern über einem Topf">
         <defs>
-          <clipPath id="sq"><rect width="400" height="400"/></clipPath>
+          <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#12433f"/><stop offset="1" stop-color="#0b2b28"/>
+          </linearGradient>
+          <clipPath id="cclip"><rect width="600" height="600"/></clipPath>
         </defs>
-        <g clip-path="url(#sq)">
-          <rect width="400" height="400" fill="#12433f"/>
-          <path d="M400 0 L400 400 L150 400 Z" fill="#e0561f"/>
-          <g fill="none" stroke="#f6efe2" stroke-width="7" stroke-linecap="round">
-            <path d="M156 92 h88 a6 6 0 0 1 6 6 v34 a24 24 0 0 1 -24 24 h-52 a24 24 0 0 1 -24 -24 v-34 a6 6 0 0 1 6 -6 z"/>
-            <path d="M150 104 h-16"/><path d="M250 104 h16"/>
-            <path d="M181 74 c0 -10 10 -10 10 -20"/>
-            <path d="M200 70 c0 -12 10 -12 10 -24"/>
-            <path d="M219 74 c0 -10 10 -10 10 -20"/>
+        <g clip-path="url(#cclip)">
+          <rect width="600" height="600" fill="url(#cbg)"/>
+          <path d="M600 0 L600 600 L180 600 Z" fill="#e0561f" opacity=".92"/>
+          <circle cx="470" cy="120" r="150" fill="#f4a03c" opacity=".22"/>
+          <!-- Dampf -->
+          <g stroke="#f4efe6" stroke-width="7" stroke-linecap="round" fill="none" opacity=".5">
+            <path d="M258 258 c-14-20 14-32 0-54"/>
+            <path d="M300 246 c-14-22 14-36 0-60"/>
+            <path d="M342 258 c-14-20 14-32 0-54"/>
           </g>
-          <text x="200" y="232" text-anchor="middle" fill="#f6efe2"
-                font-family="Helvetica Neue, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">TOPF &amp;</text>
-          <text x="200" y="292" text-anchor="middle" fill="#f6efe2"
-                font-family="Helvetica Neue, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">TEMPO</text>
-          <rect x="140" y="320" width="120" height="34" rx="17" fill="#e0561f"/>
-          <text x="200" y="344" text-anchor="middle" fill="#ffffff"
-                font-family="Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">PODCAST</text>
+          <!-- Topf -->
+          <g>
+            <rect x="196" y="300" width="208" height="120" rx="26" fill="#f4efe6"/>
+            <rect x="182" y="286" width="236" height="30" rx="15" fill="#f4efe6"/>
+            <rect x="140" y="292" width="52" height="18" rx="9" fill="#f4efe6"/>
+            <rect x="408" y="292" width="52" height="18" rx="9" fill="#f4efe6"/>
+            <rect x="222" y="352" width="156" height="12" rx="6" fill="#12433f" opacity=".18"/>
+          </g>
+          <!-- Moderator links -->
+          <g>
+            <circle cx="182" cy="196" r="54" fill="#f4efe6"/>
+            <path d="M128 196 a54 54 0 0 1 108 0" fill="#12433f" opacity=".82"/>
+            <circle cx="164" cy="204" r="6" fill="#12433f"/><circle cx="202" cy="204" r="6" fill="#12433f"/>
+            <path d="M166 224 q16 12 32 0" stroke="#12433f" stroke-width="6" fill="none" stroke-linecap="round"/>
+            <path d="M120 194 a62 62 0 0 1 124 0" stroke="#e0561f" stroke-width="13" fill="none" stroke-linecap="round"/>
+            <rect x="108" y="186" width="24" height="42" rx="12" fill="#e0561f"/>
+            <rect x="232" y="186" width="24" height="42" rx="12" fill="#e0561f"/>
+          </g>
+          <!-- Moderator rechts -->
+          <g>
+            <circle cx="418" cy="196" r="54" fill="#f4efe6"/>
+            <path d="M364 196 a54 54 0 0 1 108 0" fill="#12433f" opacity=".6"/>
+            <circle cx="400" cy="204" r="6" fill="#12433f"/><circle cx="438" cy="204" r="6" fill="#12433f"/>
+            <path d="M402 226 q16 10 32 -2" stroke="#12433f" stroke-width="6" fill="none" stroke-linecap="round"/>
+            <path d="M356 194 a62 62 0 0 1 124 0" stroke="#12433f" stroke-width="13" fill="none" stroke-linecap="round"/>
+            <rect x="344" y="186" width="24" height="42" rx="12" fill="#12433f"/>
+            <rect x="468" y="186" width="24" height="42" rx="12" fill="#12433f"/>
+          </g>
+          <!-- Schriftzug -->
+          <text x="300" y="492" text-anchor="middle" fill="#f4efe6"
+            font-family="Helvetica Neue, Inter, sans-serif" font-weight="800" font-size="70" letter-spacing="-3">TOPF &amp;</text>
+          <text x="300" y="556" text-anchor="middle" fill="#f4efe6"
+            font-family="Helvetica Neue, Inter, sans-serif" font-weight="800" font-size="70" letter-spacing="-3">TEMPO</text>
+          <g>
+            <rect x="242" y="432" width="116" height="26" rx="13" fill="#12433f" opacity=".0"/>
+          </g>
         </g>
       </svg>
     </div>
   </div>
 </div>
 
-<section id="zahlen">
+<div class="strip">
   <div class="wrap">
     <div class="facts">
-      <div class="fact"><div class="n">10 Min</div><div class="t">pro Folge — kürzer als das Kochen</div></div>
+      <div class="fact"><div class="n">9 Minuten</div><div class="t">pro Folge — Länge des Kochens, nicht des Redens</div></div>
       <div class="fact"><div class="n">1 Gericht</div><div class="t">komplett durchgekocht, nicht angerissen</div></div>
       <div class="fact"><div class="n">2 Stimmen</div><div class="t">eine kocht routiniert, eine fragt nach</div></div>
     </div>
   </div>
-</section>
+</div>
 
 <section id="folgen">
   <div class="wrap">
-    <h2>Die ersten drei Folgen</h2>
-    <p class="sec-lead">Drei Gerichte, drei Methoden: ein Topf, der Vorrat, das Blech. Wer die drei kann, kommt durch jede Woche. Zutatenliste jeweils aufklappen und vorher einkaufen.</p>
+    <div class="sec-head">
+      <div class="kicker">Staffel 1</div>
+      <h2>Die ersten drei Folgen</h2>
+      <p class="sec-lead">Drei Gerichte, drei Methoden: ein Topf, der Vorrat, das Blech. Wer die drei kann, kommt durch jede Woche. Zutatenliste jeweils aufklappen und vorher einkaufen.</p>
+    </div>
 
+    <!-- FOLGE 1 -->
     <article class="ep">
-      <div class="ep-head"><span class="ep-num">Folge 1</span><h3>One-Pot-Pasta — ein Topf, zwanzig Minuten, kein Abwasch</h3></div>
-      <div class="ep-meta">für 4 Personen · ein Topf · 20 Minuten Kochzeit</div>
-      <p class="desc">Nudeln, Soße und Gemüse in einem einzigen Durchgang. Warum das Nudelwasser die beste Soßenbasis ist, wie viel Zucker in die Tomate darf und welcher Handgriff acht Kirschtomaten in einem Zug halbiert.</p>
-      <details>
-        <summary>Zutaten und Kapitel</summary>
-        <div class="cols">
-          <div><h4>Zutaten (4 Personen)</h4>
-            <ul class="zut">
-              <li>500 g kurze Nudeln</li><li>1 Dose stückige Tomaten (400 g)</li>
-              <li>250 g Kirschtomaten</li><li>2 Knoblauchzehen, 1 Zwiebel</li>
-              <li>150 g Blattspinat (frisch oder TK)</li><li>1 l Gemüsebrühe</li>
-              <li>3 EL Olivenöl, 1 TL Oregano</li><li>Salz, Pfeffer, Prise Zucker</li>
-              <li>100 g Parmesan oder Pecorino</li>
-            </ul></div>
-          <div><h4>Kapitel</h4>
-            <ol class="kap">
-              <li>Einstieg</li><li>Zutaten-Check</li><li>Vorbereiten</li><li>Ansetzen</li>
-              <li>Tempo-Trick: Tisch zuerst</li><li>Fertigstellen</li><li>Variante und Reste</li>
-            </ol></div>
+      <div class="ep-top">
+        <div class="ep-art">
+          <svg viewBox="0 0 400 400" role="img" aria-label="Illustration: One-Pot-Pasta mit Tomaten und Basilikum in einem Topf">
+            <rect width="400" height="400" fill="#f0e7d6"/>
+            <circle cx="200" cy="205" r="132" fill="#12433f" opacity=".07"/>
+            <g stroke="#12433f" stroke-width="6" stroke-linecap="round" fill="none" opacity=".3">
+              <path d="M170 86 c-12-16 12-26 0-44"/><path d="M200 76 c-12-18 12-30 0-48"/><path d="M230 86 c-12-16 12-26 0-44"/>
+            </g>
+            <!-- Topf -->
+            <path d="M84 170 h232 l-16 132 a26 26 0 0 1 -26 22 H126 a26 26 0 0 1 -26 -22 Z" fill="#12433f"/>
+            <rect x="70" y="152" width="260" height="26" rx="13" fill="#0d322f"/>
+            <rect x="24" y="156" width="52" height="16" rx="8" fill="#0d322f"/>
+            <rect x="324" y="156" width="52" height="16" rx="8" fill="#0d322f"/>
+            <!-- Soße -->
+            <path d="M96 190 h208 l-8 62 a20 20 0 0 1 -20 16 H124 a20 20 0 0 1 -20 -16 Z" fill="#e0561f"/>
+            <!-- Nudeln -->
+            <g stroke="#f7d98a" stroke-width="9" stroke-linecap="round" fill="none">
+              <path d="M118 214 q34 -22 70 0 q34 22 70 -4"/>
+              <path d="M112 238 q40 -20 84 2 q40 22 82 -6"/>
+              <path d="M124 260 q36 -16 74 4 q34 18 68 -6"/>
+            </g>
+            <!-- Kirschtomaten -->
+            <circle cx="150" cy="206" r="15" fill="#c4361c"/><circle cx="145" cy="201" r="4" fill="#f6b8a4" opacity=".8"/>
+            <circle cx="254" cy="214" r="13" fill="#c4361c"/><circle cx="250" cy="210" r="3.5" fill="#f6b8a4" opacity=".8"/>
+            <circle cx="203" cy="246" r="12" fill="#c4361c"/>
+            <!-- Basilikum -->
+            <g fill="#2f7a4e">
+              <path d="M186 186 q18 -22 36 -6 q-16 20 -36 6"/>
+              <path d="M228 240 q20 -18 34 0 q-18 16 -34 0"/>
+            </g>
+            <text x="200" y="368" text-anchor="middle" fill="#12433f" opacity=".55"
+              font-family="Helvetica Neue, Inter, sans-serif" font-weight="800" font-size="19" letter-spacing="2">EIN TOPF</text>
+          </svg>
         </div>
-      </details>
+        <div class="ep-body">
+          <div class="ep-head">
+            <span class="ep-num">FOLGE 1</span>
+            <span class="ep-tag">Ein Topf</span>
+          </div>
+          <h3>One-Pot-Pasta mit Tomaten und Basilikum</h3>
+          <div class="ep-meta">9:24 · für 4 Personen · ein Topf, kein Abgießen</div>
+          <p class="desc">Nudeln, Soße und Gemüse in einem einzigen Durchgang. Warum das Nudelwasser die beste Soßenbasis ist, wie viel Zucker in die Tomate darf und welcher Handgriff acht Kirschtomaten in einem Zug halbiert.</p>
+          <audio controls preload="none" src="audio/Folge-01_One-Pot-Pasta.mp3"></audio>
+          <details>
+            <summary>Zutaten &amp; Kapitel</summary>
+            <div class="cols">
+              <div>
+                <h4>Zutaten (4 Personen)</h4>
+                <ul class="zut">
+                  <li>500 g kurze Pasta (Penne, Fusilli)</li>
+                  <li>1 Dose stückige Tomaten (400 g)</li>
+                  <li>250 g Kirschtomaten</li>
+                  <li>1 Zwiebel, 2 Zehen Knoblauch</li>
+                  <li>1 Zucchini</li>
+                  <li>750 ml Wasser oder Brühe</li>
+                  <li>3 EL Olivenöl</li>
+                  <li>1 TL Zucker, Salz, Pfeffer</li>
+                  <li>1 Handvoll Basilikum</li>
+                  <li>Parmesan zum Reiben</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Kapitel</h4>
+                <ol class="kap">
+                  <li>Kalter Einstieg</li>
+                  <li>Begrüßung</li>
+                  <li>Zutaten-Check</li>
+                  <li>Schritt 1 — alles in den Topf</li>
+                  <li>Schritt 2 — Hitze und Rühren</li>
+                  <li>Tempo-Trick der Woche</li>
+                  <li>Schritt 3 — Abschmecken</li>
+                  <li>Abschluss</li>
+                </ol>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
     </article>
 
+    <!-- FOLGE 2 -->
     <article class="ep">
-      <div class="ep-head"><span class="ep-num">Folge 2</span><h3>Kichererbsen-Curry — das Gericht für den leeren Kühlschrank</h3></div>
-      <div class="ep-meta">für 4 Personen · aus dem Vorrat · 25 Minuten Kochzeit</div>
-      <p class="desc">Drei Dosen, eine Zwiebel, fertig. Warum Gewürze ins Öl gehören und nicht in die Flüssigkeit, warum der Reis zuerst aufgesetzt wird und welcher Spritzer am Ende den größten Unterschied macht.</p>
-      <details>
-        <summary>Zutaten und Kapitel</summary>
-        <div class="cols">
-          <div><h4>Zutaten (4 Personen)</h4>
-            <ul class="zut">
-              <li>2 Dosen Kichererbsen (je 400 g)</li><li>1 Dose Kokosmilch (400 ml)</li>
-              <li>1 Dose stückige Tomaten (400 g)</li><li>1 Zwiebel, 2 Knoblauchzehen</li>
-              <li>1 Stück Ingwer oder 1 TL Paste</li><li>2 EL Currypulver oder -paste</li>
-              <li>1 TL Kreuzkümmel, ½ TL Kurkuma</li><li>Saft einer halben Zitrone</li>
-              <li>250 g Reis</li>
-            </ul></div>
-          <div><h4>Kapitel</h4>
-            <ol class="kap">
-              <li>Einstieg</li><li>Zutaten-Check</li><li>Reis zuerst</li><li>Gewürzbasis</li>
-              <li>Köcheln</li><li>Tempo-Trick: Dosen-Schublade</li><li>Abschmecken</li>
-            </ol></div>
+      <div class="ep-top">
+        <div class="ep-art">
+          <svg viewBox="0 0 400 400" role="img" aria-label="Illustration: Kichererbsen-Curry mit Kokosmilch, Reis und Gewürzen">
+            <rect width="400" height="400" fill="#f0e7d6"/>
+            <circle cx="200" cy="200" r="138" fill="#e0561f" opacity=".08"/>
+            <!-- Gewürzpunkte -->
+            <g opacity=".7">
+              <circle cx="52" cy="70" r="7" fill="#d9a441"/><circle cx="76" cy="52" r="5" fill="#c4361c"/>
+              <circle cx="344" cy="64" r="6" fill="#d9a441"/><circle cx="366" cy="92" r="4.5" fill="#2f7a4e"/>
+              <circle cx="40" cy="330" r="5" fill="#c4361c"/><circle cx="360" cy="326" r="6.5" fill="#d9a441"/>
+            </g>
+            <!-- Reis-Schüssel hinten links -->
+            <g>
+              <path d="M40 250 h118 a4 4 0 0 1 4 5 l-10 44 a22 22 0 0 1 -21 17 H67 a22 22 0 0 1 -21 -17 l-10 -44 a4 4 0 0 1 4 -5 z" fill="#0d322f"/>
+              <path d="M48 250 q51 -26 102 0 z" fill="#f7f2e6"/>
+              <g fill="#f7f2e6"><ellipse cx="78" cy="243" rx="8" ry="4.5"/><ellipse cx="100" cy="237" rx="8" ry="4.5"/><ellipse cx="122" cy="243" rx="8" ry="4.5"/></g>
+            </g>
+            <!-- Curry-Topf -->
+            <path d="M132 176 h212 l-16 126 a28 28 0 0 1 -28 24 H176 a28 28 0 0 1 -28 -24 Z" fill="#12433f"/>
+            <rect x="118" y="158" width="240" height="26" rx="13" fill="#0d322f"/>
+            <rect x="352" y="162" width="46" height="16" rx="8" fill="#0d322f"/>
+            <!-- Curry -->
+            <path d="M144 196 h188 l-9 62 a20 20 0 0 1 -20 16 H173 a20 20 0 0 1 -20 -16 Z" fill="#e8952c"/>
+            <!-- Kichererbsen -->
+            <g fill="#e8c884">
+              <circle cx="176" cy="216" r="11"/><circle cx="208" cy="228" r="12"/><circle cx="244" cy="214" r="10"/>
+              <circle cx="276" cy="230" r="11"/><circle cx="222" cy="252" r="10"/><circle cx="262" cy="256" r="9"/>
+              <circle cx="192" cy="246" r="8"/>
+            </g>
+            <g fill="#d3a85f" opacity=".7">
+              <circle cx="173" cy="213" r="3"/><circle cx="205" cy="225" r="3"/><circle cx="241" cy="211" r="2.6"/>
+            </g>
+            <!-- Kokosmilch-Wirbel -->
+            <path d="M162 234 q26 -18 52 -2 q26 16 52 -4" stroke="#fff8ec" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+            <!-- Koriander -->
+            <g fill="#2f7a4e">
+              <path d="M228 198 q18 -20 34 -4 q-15 18 -34 4"/>
+              <path d="M186 262 q18 -16 32 0 q-16 15 -32 0"/>
+            </g>
+            <!-- Zitronenhälfte -->
+            <g transform="translate(316,286)">
+              <circle r="28" fill="#f2d24b"/><circle r="21" fill="#fbeb9c"/>
+              <g stroke="#f2d24b" stroke-width="3"><path d="M0 -21 V21"/><path d="M-21 0 H21"/><path d="M-15 -15 L15 15"/><path d="M15 -15 L-15 15"/></g>
+            </g>
+            <text x="200" y="372" text-anchor="middle" fill="#12433f" opacity=".55"
+              font-family="Helvetica Neue, Inter, sans-serif" font-weight="800" font-size="19" letter-spacing="2">AUS DEM VORRAT</text>
+          </svg>
         </div>
-      </details>
+        <div class="ep-body">
+          <div class="ep-head">
+            <span class="ep-num">FOLGE 2</span>
+            <span class="ep-tag">Aus dem Vorrat</span>
+          </div>
+          <h3>Kichererbsen-Curry mit Kokosmilch</h3>
+          <div class="ep-meta">8:36 · für 4 Personen · drei Dosen, zwei Töpfe</div>
+          <p class="desc">Drei Dosen, eine Zwiebel, fertig. Warum Gewürze ins Öl gehören und nicht in die Flüssigkeit, warum der Reis zuerst aufgesetzt wird und welcher Spritzer am Ende den größten Unterschied macht.</p>
+          <audio controls preload="none" src="audio/Folge-02_Kichererbsen-Curry.mp3"></audio>
+          <details>
+            <summary>Zutaten &amp; Kapitel</summary>
+            <div class="cols">
+              <div>
+                <h4>Zutaten (4 Personen)</h4>
+                <ul class="zut">
+                  <li>2 Dosen Kichererbsen (je 400 g)</li>
+                  <li>1 Dose Kokosmilch (400 ml)</li>
+                  <li>1 Dose stückige Tomaten (400 g)</li>
+                  <li>1 Zwiebel, 2 Zehen Knoblauch</li>
+                  <li>1 Stück Ingwer (daumengroß)</li>
+                  <li>2 TL Currypulver, 1 TL Kreuzkümmel</li>
+                  <li>½ TL Kurkuma, Chili nach Geschmack</li>
+                  <li>2 EL Öl, Salz</li>
+                  <li>½ Zitrone oder Limette</li>
+                  <li>300 g Reis · Koriander oder Petersilie</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Kapitel</h4>
+                <ol class="kap">
+                  <li>Kalter Einstieg</li>
+                  <li>Begrüßung</li>
+                  <li>Zutaten-Check und Vorratslogik</li>
+                  <li>Schritt 1 — Reis zuerst</li>
+                  <li>Schritt 2 — die Gewürzbasis</li>
+                  <li>Schritt 3 — ablöschen und köcheln</li>
+                  <li>Tempo-Trick der Woche</li>
+                  <li>Schritt 4 — abschmecken</li>
+                  <li>Abschluss</li>
+                </ol>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
     </article>
 
+    <!-- FOLGE 3 -->
     <article class="ep">
-      <div class="ep-head"><span class="ep-num">Folge 3</span><h3>Das Blech — Hähnchen und Gemüse aus dem Ofen</h3></div>
-      <div class="ep-meta">für 4 Personen · 10 Minuten Arbeit, 40 Minuten Ofen</div>
-      <p class="desc">Das Gericht, bei dem du die Küche verlassen darfst. Warum Keule besser ist als Brust, warum ein zu volles Blech alles ruiniert und wie ein zweites Blech den nächsten Kochabend überflüssig macht.</p>
-      <details>
-        <summary>Zutaten und Kapitel</summary>
-        <div class="cols">
-          <div><h4>Zutaten (4 Personen)</h4>
-            <ul class="zut">
-              <li>8 Hähnchenunterschenkel (ca. 1 kg)</li><li>600 g festkochende Kartoffeln</li>
-              <li>2 Paprika, 1 Zucchini</li><li>1 rote Zwiebel, 1 Zitrone</li>
-              <li>4 EL Olivenöl</li><li>2 TL Paprikapulver edelsüß</li>
-              <li>1 TL Thymian, 2 Knoblauchzehen</li><li>200 g Joghurt für den Dip</li>
-            </ul></div>
-          <div><h4>Kapitel</h4>
-            <ol class="kap">
-              <li>Einstieg</li><li>Zutaten-Check</li><li>Schneiden nach Garzeit</li><li>Marinieren</li>
-              <li>Blech belegen</li><li>Tempo-Trick: das zweite Blech</li><li>Gartest</li>
-            </ol></div>
+      <div class="ep-top">
+        <div class="ep-art">
+          <svg viewBox="0 0 400 400" role="img" aria-label="Illustration: Ofenblech mit Hähnchenkeulen, Kartoffelspalten, Paprika, Zucchini und Zitrone">
+            <rect width="400" height="400" fill="#f0e7d6"/>
+            <rect x="34" y="96" width="332" height="216" rx="26" fill="#12433f" opacity=".1"/>
+            <!-- Blech -->
+            <g>
+              <rect x="42" y="106" width="316" height="196" rx="22" fill="#2b3a37"/>
+              <rect x="56" y="120" width="288" height="168" rx="14" fill="#3b4c48"/>
+            </g>
+            <!-- Kartoffelspalten -->
+            <g fill="#e0b45f">
+              <path d="M78 148 l40 -12 l12 30 l-40 12 z"/>
+              <path d="M78 196 l42 -10 l10 30 l-42 10 z"/>
+              <path d="M84 244 l40 -12 l12 28 l-40 12 z"/>
+              <path d="M300 152 l-40 -10 l-10 30 l40 10 z"/>
+            </g>
+            <g fill="#c8963f" opacity=".55">
+              <path d="M84 156 l30 -9 l3 8 l-30 9 z"/><path d="M84 204 l32 -8 l3 8 l-32 8 z"/>
+            </g>
+            <!-- Hähnchenkeulen -->
+            <g>
+              <ellipse cx="180" cy="168" rx="40" ry="26" transform="rotate(-14 180 168)" fill="#d99a52"/>
+              <ellipse cx="172" cy="162" rx="26" ry="14" transform="rotate(-14 172 162)" fill="#e8b878" opacity=".75"/>
+              <rect x="206" y="176" width="34" height="13" rx="6.5" transform="rotate(-14 206 176)" fill="#f2e6d2"/>
+              <ellipse cx="214" cy="248" rx="40" ry="26" transform="rotate(12 214 248)" fill="#d99a52"/>
+              <ellipse cx="206" cy="242" rx="26" ry="14" transform="rotate(12 206 242)" fill="#e8b878" opacity=".75"/>
+              <rect x="158" y="252" width="34" height="13" rx="6.5" transform="rotate(12 158 252)" fill="#f2e6d2"/>
+            </g>
+            <!-- Paprikastreifen -->
+            <g>
+              <path d="M240 130 q34 -10 56 6 q-30 16 -56 -6" fill="#c4361c"/>
+              <path d="M252 206 q34 -10 56 6 q-30 16 -56 -6" fill="#e0561f"/>
+            </g>
+            <!-- Zucchini -->
+            <g>
+              <circle cx="284" cy="256" r="19" fill="#4b8f4f"/><circle cx="284" cy="256" r="12" fill="#cfe3b6"/>
+              <circle cx="146" cy="216" r="17" fill="#4b8f4f"/><circle cx="146" cy="216" r="10.5" fill="#cfe3b6"/>
+            </g>
+            <!-- Zwiebelviertel -->
+            <path d="M150 124 q22 -14 40 4 q-20 18 -40 -4" fill="#c9a4c6"/>
+            <!-- Zitronenscheiben -->
+            <g transform="translate(316,232)">
+              <circle r="22" fill="#f2d24b"/><circle r="16" fill="#fbeb9c"/>
+              <g stroke="#f2d24b" stroke-width="2.6"><path d="M0 -16 V16"/><path d="M-16 0 H16"/><path d="M-11 -11 L11 11"/><path d="M11 -11 L-11 11"/></g>
+            </g>
+            <!-- Thymian -->
+            <g stroke="#2f7a4e" stroke-width="3" stroke-linecap="round" fill="none" opacity=".85">
+              <path d="M112 280 q22 -8 40 -2"/><path d="M120 276 l-4 -8"/><path d="M132 277 l-3 -9"/><path d="M144 279 l-2 -9"/>
+            </g>
+            <text x="200" y="352" text-anchor="middle" fill="#12433f" opacity=".55"
+              font-family="Helvetica Neue, Inter, sans-serif" font-weight="800" font-size="19" letter-spacing="2">EIN BLECH</text>
+          </svg>
         </div>
-      </details>
+        <div class="ep-body">
+          <div class="ep-head">
+            <span class="ep-num">FOLGE 3</span>
+            <span class="ep-tag">Ein Blech</span>
+          </div>
+          <h3>Ofenblech-Hähnchen mit Kartoffeln und Gemüse</h3>
+          <div class="ep-meta">8:28 · für 4 Personen · 10 Min Arbeit, 40 Min Ofen</div>
+          <p class="desc">Das Gericht, bei dem du die Küche verlassen darfst. Warum Keule besser ist als Brust, warum ein zu volles Blech alles ruiniert und wie ein zweites Blech den nächsten Kochabend überflüssig macht.</p>
+          <audio controls preload="none" src="audio/Folge-03_Ofenblech-Haehnchen.mp3"></audio>
+          <details>
+            <summary>Zutaten &amp; Kapitel</summary>
+            <div class="cols">
+              <div>
+                <h4>Zutaten (4 Personen)</h4>
+                <ul class="zut">
+                  <li>8 Hähnchenunterschenkel oder 4 Oberkeulen (ca. 1 kg)</li>
+                  <li>600 g festkochende Kartoffeln</li>
+                  <li>2 Paprika, 1 Zucchini</li>
+                  <li>1 rote Zwiebel</li>
+                  <li>1 Zitrone</li>
+                  <li>4 EL Olivenöl</li>
+                  <li>2 TL Paprikapulver, 1 TL Thymian</li>
+                  <li>2 Zehen Knoblauch, Salz, Pfeffer</li>
+                  <li>200 g Joghurt für den Dip</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Kapitel</h4>
+                <ol class="kap">
+                  <li>Kalter Einstieg</li>
+                  <li>Begrüßung</li>
+                  <li>Zutaten-Check</li>
+                  <li>Schritt 1 — schneiden nach Garzeit</li>
+                  <li>Schritt 2 — marinieren in der Schüssel</li>
+                  <li>Schritt 3 — das Blech belegen</li>
+                  <li>Tempo-Trick der Woche</li>
+                  <li>Schritt 4 — der Gartest</li>
+                  <li>Abschluss</li>
+                </ol>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
     </article>
+  </div>
+</section>
+
+<section id="methoden">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Das Prinzip</div>
+      <h2>Drei Methoden, nicht dreißig Rezepte</h2>
+      <p class="sec-lead">Jede Folge steht für eine Art zu kochen. Wer sie verstanden hat, braucht das Rezept nicht mehr — nur noch das, was gerade da ist.</p>
+    </div>
+    <div class="methods">
+      <div class="method">
+        <svg viewBox="0 0 100 100" role="img" aria-label="Ein Topf">
+          <circle cx="50" cy="52" r="40" fill="#12433f" opacity=".08"/>
+          <path d="M22 42 h56 l-5 34 a10 10 0 0 1 -10 9 H37 a10 10 0 0 1 -10 -9 Z" fill="#12433f"/>
+          <rect x="18" y="35" width="64" height="9" rx="4.5" fill="#0d322f"/>
+          <rect x="4" y="37" width="16" height="6" rx="3" fill="#0d322f"/>
+          <rect x="80" y="37" width="16" height="6" rx="3" fill="#0d322f"/>
+          <path d="M28 48 h44 l-3 18 a7 7 0 0 1 -7 6 H38 a7 7 0 0 1 -7 -6 Z" fill="#e0561f"/>
+          <g stroke="#12433f" stroke-width="3.5" stroke-linecap="round" fill="none" opacity=".35">
+            <path d="M40 26 c-5-6 5-10 0-16"/><path d="M60 26 c-5-6 5-10 0-16"/>
+          </g>
+        </svg>
+        <div class="mt">Ein Topf</div>
+        <p>Alles rein, einmal aufkochen, nichts abgießen. Das Kochwasser wird die Soße.</p>
+      </div>
+      <div class="method">
+        <svg viewBox="0 0 100 100" role="img" aria-label="Der Vorrat">
+          <circle cx="50" cy="52" r="40" fill="#e0561f" opacity=".1"/>
+          <g>
+            <rect x="20" y="36" width="22" height="34" rx="4" fill="#12433f"/>
+            <rect x="20" y="36" width="22" height="9" rx="4" fill="#0d322f"/>
+            <rect x="23" y="50" width="16" height="10" rx="2" fill="#e8c884"/>
+          </g>
+          <g>
+            <rect x="46" y="28" width="22" height="42" rx="4" fill="#e0561f"/>
+            <rect x="46" y="28" width="22" height="9" rx="4" fill="#c4361c"/>
+            <rect x="49" y="45" width="16" height="11" rx="2" fill="#fff8ec"/>
+          </g>
+          <g>
+            <rect x="72" y="42" width="20" height="28" rx="4" fill="#d9a441"/>
+            <rect x="72" y="42" width="20" height="8" rx="4" fill="#b8862c"/>
+          </g>
+          <rect x="14" y="70" width="80" height="6" rx="3" fill="#12433f" opacity=".3"/>
+        </svg>
+        <div class="mt">Der Vorrat</div>
+        <p>Sechs Dosen, immer doppelt gekauft. Damit „Was essen wir?" nie mehr in den Supermarkt führt.</p>
+      </div>
+      <div class="method">
+        <svg viewBox="0 0 100 100" role="img" aria-label="Ein Blech">
+          <circle cx="50" cy="52" r="40" fill="#12433f" opacity=".08"/>
+          <rect x="12" y="34" width="76" height="42" rx="7" fill="#2b3a37"/>
+          <rect x="17" y="39" width="66" height="32" rx="4" fill="#3b4c48"/>
+          <g fill="#e0b45f"><path d="M24 46 l12 -4 l4 10 l-12 4 z"/><path d="M24 60 l12 -3 l3 9 l-12 3 z"/></g>
+          <ellipse cx="56" cy="50" rx="14" ry="9" transform="rotate(-12 56 50)" fill="#d99a52"/>
+          <ellipse cx="62" cy="64" rx="12" ry="8" transform="rotate(10 62 64)" fill="#d99a52"/>
+          <path d="M70 42 q11 -4 19 2 q-10 6 -19 -2" fill="#c4361c"/>
+          <circle cx="76" cy="64" r="6" fill="#4b8f4f"/><circle cx="76" cy="64" r="3.4" fill="#cfe3b6"/>
+        </svg>
+        <div class="mt">Ein Blech</div>
+        <p>Zehn Minuten Arbeit, vierzig Minuten Ofen. Die einzige Methode, bei der du die Küche verlassen darfst.</p>
+      </div>
+    </div>
   </div>
 </section>
 
 <section id="tricks">
   <div class="wrap">
-    <h2>Tempo-Tricks aus den Folgen</h2>
-    <p class="sec-lead">In jeder Folge ein Handgriff, der den Abend kürzer macht. Hier stehen sie zum Nachlesen.</p>
+    <div class="sec-head">
+      <div class="kicker">Zum Nachlesen</div>
+      <h2>Tempo-Tricks aus den Folgen</h2>
+      <p class="sec-lead">In jeder Folge ein Handgriff, der den Abend kürzer macht.</p>
+    </div>
     <div class="tricks">
-      <div class="trick"><div class="k">Folge 1</div>
-        <p><strong>Deck den Tisch jetzt.</strong> Der teuerste Zeitfresser ist die Lücke danach: Essen fertig, und alle suchen noch Teller. Nutze die Kochzeit, in der du ohnehin am Topf stehst.</p></div>
-      <div class="trick"><div class="k">Folge 2</div>
-        <p><strong>Die Dosen-Schublade.</strong> Sechs Dosen immer doppelt da, leer heißt sofort auf den Einkaufszettel. Dann gibt es an jedem Abend mindestens ein Gericht, das ohne Einkauf geht.</p></div>
-      <div class="trick"><div class="k">Folge 3</div>
-        <p><strong>Das zweite Blech.</strong> Der Ofen läuft sowieso. Ein Blech Gemüse dazu ist morgen Beilage, übermorgen Salat, am Freitag Suppe — und spart einen ganzen Kochabend.</p></div>
+      <div class="trick">
+        <div class="k">Folge 1</div>
+        <p>Kirschtomaten mit dem Deckel eines Schraubglases zusammenhalten und in einem Zug durchschneiden — acht Tomaten, ein Schnitt.</p>
+      </div>
+      <div class="trick">
+        <div class="k">Folge 2</div>
+        <p>Die Dosen-Schublade: sechs Dosen immer doppelt kaufen. Ist eine leer, wandert sie sofort auf den Einkaufszettel — nicht später.</p>
+      </div>
+      <div class="trick">
+        <div class="k">Folge 3</div>
+        <p>Wenn der Ofen läuft, läuft er für zwei Bleche. Das zweite Blech ist am Mittwoch Beilage, am Donnerstag Salat, am Freitag Suppe.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="ueber">
+<section id="hosts">
   <div class="wrap">
-    <h2>Wer hier redet</h2>
-    <p class="sec-lead">Zwei Stimmen, klare Rollen. Eine weiß, wie es geht. Eine fragt das, was man sich sonst nicht zu fragen traut.</p>
+    <div class="sec-head">
+      <div class="kicker">Am Herd</div>
+      <h2>Wer da redet</h2>
+      <p class="sec-lead">Zwei Stimmen, klare Rollen: eine erklärt, eine fragt das, was man sich selbst nicht traut zu fragen.</p>
+    </div>
     <div class="hosts">
       <div class="host">
-        <div class="name">Mira</div>
-        <div class="role">kocht seit zwanzig Jahren jeden Abend</div>
-        <p>Erklärt das Warum hinter jedem Handgriff, gibt das Tempo vor und sagt auch, wo ein Rezept schwächelt. Ihre Faustregel: Was stur ist, kommt zuerst.</p>
+        <svg viewBox="0 0 100 100" role="img" aria-label="Mira">
+          <circle cx="50" cy="50" r="46" fill="#12433f"/>
+          <circle cx="50" cy="44" r="24" fill="#f4efe6"/>
+          <path d="M26 44 a24 24 0 0 1 48 0" fill="#12433f" opacity=".8"/>
+          <circle cx="42" cy="48" r="3" fill="#12433f"/><circle cx="58" cy="48" r="3" fill="#12433f"/>
+          <path d="M43 57 q7 5 14 0" stroke="#12433f" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <path d="M23 43 a27 27 0 0 1 54 0" stroke="#e0561f" stroke-width="6" fill="none" stroke-linecap="round"/>
+          <rect x="17" y="40" width="11" height="18" rx="5.5" fill="#e0561f"/>
+          <rect x="72" y="40" width="11" height="18" rx="5.5" fill="#e0561f"/>
+        </svg>
+        <div>
+          <div class="name">Mira</div>
+          <div class="role">gibt das Tempo vor</div>
+          <p>Kocht routiniert und redet trocken. Erklärt nicht das Rezept, sondern warum es funktioniert — und wo man sich die Arbeit sparen kann.</p>
+        </div>
       </div>
       <div class="host">
-        <div class="name">Jonas</div>
-        <div class="role">kocht mit, mit wenig Zeit und vielen Fragen</div>
-        <p>Steht selbst um sieben in der Küche, testet alles live mit und fragt nach, wenn ein Schritt in der Praxis nicht so glatt läuft wie in der Theorie.</p>
+        <svg viewBox="0 0 100 100" role="img" aria-label="Jonas">
+          <circle cx="50" cy="50" r="46" fill="#e0561f"/>
+          <circle cx="50" cy="44" r="24" fill="#f4efe6"/>
+          <path d="M26 44 a24 24 0 0 1 48 0" fill="#12433f" opacity=".55"/>
+          <circle cx="42" cy="48" r="3" fill="#12433f"/><circle cx="58" cy="48" r="3" fill="#12433f"/>
+          <path d="M43 58 q7 4 14 -1" stroke="#12433f" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <path d="M23 43 a27 27 0 0 1 54 0" stroke="#12433f" stroke-width="6" fill="none" stroke-linecap="round"/>
+          <rect x="17" y="40" width="11" height="18" rx="5.5" fill="#12433f"/>
+          <rect x="72" y="40" width="11" height="18" rx="5.5" fill="#12433f"/>
+        </svg>
+        <div>
+          <div class="name">Jonas</div>
+          <div class="role">kocht mit und fragt nach</div>
+          <p>Steht selbst am Herd, mit den gleichen Zweifeln wie alle anderen. Fragt nach, wenn ein Schritt zu selbstverständlich klingt.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="abo">
+<section id="abo" class="abo">
   <div class="wrap">
-    <h2>Abonnieren</h2>
-    <p class="sec-lead">Jeden Dienstag eine neue Folge. Die Links stehen hier, sobald der Feed bei den Plattformen durch ist.</p>
-    <div class="btns">
-      <a class="btn btn-ghost" href="#">Spotify</a>
-      <a class="btn btn-ghost" href="#">Apple Podcasts</a>
-      <a class="btn btn-ghost" href="#">RSS-Feed</a>
+    <div class="sec-head">
+      <div class="kicker">Nichts verpassen</div>
+      <h2>Abonnieren</h2>
+      <p class="sec-lead">Jede Woche eine Folge, jede Folge ein Gericht. Der Feed wird gerade eingerichtet — bis dahin laufen die Folgen direkt hier oben.</p>
+    </div>
+    <div class="plats">
+      <a class="plat" href="#folgen"><span class="d"></span>Spotify</a>
+      <a class="plat" href="#folgen"><span class="d"></span>Apple Podcasts</a>
+      <a class="plat" href="#folgen"><span class="d"></span>RSS-Feed</a>
     </div>
   </div>
 </section>
 
 <footer>
-  <div class="wrap">
-    <p><strong>Topf und Tempo</strong> — der Mitkoch-Podcast. Kontakt und Impressum folgen.</p>
-    <p class="note">Hinweis zu Geflügel: Kerntemperatur 75 Grad, Hände und Brett nach dem Kontakt mit rohem Fleisch heiß spülen. Rohes Hähnchen nicht waschen.</p>
+  <div class="wrap fgrid">
+    <div>
+      <strong class="sans">Topf &amp; Tempo</strong><br>
+      Der Mitkoch-Podcast für Familien und Berufstätige.
+    </div>
+    <div>
+      <a href="#folgen">Folgen</a> · <a href="#tricks">Tempo-Tricks</a> · <a href="#abo">Abonnieren</a><br>
+      Moderation Mira und Jonas · Stimmen KI-generiert
+    </div>
   </div>
 </footer>
 
