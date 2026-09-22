@@ -98,6 +98,8 @@
   .ep-head{display:flex; align-items:center; gap:11px; flex-wrap:wrap}
   .ep-num{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:800; font-size:12px; letter-spacing:.13em;
     color:#fff; background:var(--deep); padding:5px 11px; border-radius:99px}
+  .ep-link{display:inline-block;margin:2px 0 12px;font-family:"Helvetica Neue",Inter,sans-serif;font-weight:700;font-size:15px;color:var(--accent);text-decoration:none}
+  .ep-link:hover{text-decoration:underline}
   .ep-tag{font-family:"Helvetica Neue",Inter,sans-serif; font-weight:700; font-size:12px; letter-spacing:.09em;
     text-transform:uppercase; color:var(--accent); background:var(--accent-soft); padding:5px 11px; border-radius:99px}
   .ep h3{margin:12px 0 0; font-size:23px; letter-spacing:-.02em}
@@ -170,350 +172,62 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@graph": [
+ "@type": "ItemList",
+ "name": "Topf & Tempo — Rezepte",
+ "itemListElement": [
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-1",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-1",
-   "name": "One-Pot-Pasta mit Tomate und Spinat",
-   "description": "Nudeln, Soße und Gemüse in einem einzigen Durchgang. Warum das Nudelwasser die beste Soßenbasis ist, wie viel Zucker in die Tomate darf und welcher Handgriff acht Kirschtomaten in einem Zug halbiert.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "500 g kurze Nudeln (Penne, Fusilli, Rigatoni)",
-    "1 Dose stückige Tomaten (400 g)",
-    "250 g Kirschtomaten",
-    "1 Zwiebel, 2 Knoblauchzehen",
-    "150 g Blattspinat (frisch oder TK)",
-    "1 l Gemüsebrühe",
-    "3 EL Olivenöl",
-    "1 TL getrockneter Oregano",
-    "Salz, Pfeffer, eine Prise Zucker",
-    "100 g Parmesan oder Pecorino, gerieben"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-01_One-Pot-Pasta.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 1,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-1.html",
+   "name": "One-Pot-Pasta mit Tomate und Spinat"
   },
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-2",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-2",
-   "name": "Kichererbsen-Curry mit Kokosmilch",
-   "description": "Drei Dosen, eine Zwiebel, fertig. Warum Gewürze ins Öl gehören und nicht in die Flüssigkeit, warum der Reis zuerst aufgesetzt wird und welcher Spritzer am Ende den größten Unterschied macht.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "2 Dosen Kichererbsen (je 400 g)",
-    "1 Dose Kokosmilch (400 ml)",
-    "1 Dose stückige Tomaten (400 g)",
-    "1 Zwiebel, 2 Knoblauchzehen",
-    "1 daumengroßes Stück Ingwer",
-    "2 EL Currypulver oder rote Currypaste",
-    "1 TL Kreuzkümmel, ½ TL Kurkuma",
-    "2 EL neutrales Öl, Salz, Pfeffer",
-    "Saft einer halben Zitrone oder Limette",
-    "250 g Reis · optional TK-Erbsen, Koriander"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-02_Kichererbsen-Curry.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 2,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-2.html",
+   "name": "Kichererbsen-Curry mit Kokosmilch"
   },
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-3",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-3",
-   "name": "Ofenblech-Hähnchen mit Kartoffeln und Gemüse",
-   "description": "Das Gericht, bei dem du die Küche verlassen darfst. Warum Keule besser ist als Brust, warum ein zu volles Blech alles ruiniert und wie ein zweites Blech den nächsten Kochabend überflüssig macht.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "8 Hähnchenunterschenkel oder 4 Oberkeulen (ca. 1 kg)",
-    "600 g festkochende Kartoffeln",
-    "2 Paprika, 1 Zucchini",
-    "1 rote Zwiebel",
-    "1 Zitrone",
-    "4 EL Olivenöl",
-    "2 TL Paprikapulver edelsüß",
-    "1 TL Thymian oder Rosmarin",
-    "2 Knoblauchzehen, Salz, Pfeffer",
-    "200 g Joghurt + 1 Zehe Knoblauch für den Dip"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-03_Ofenblech-Haehnchen.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 3,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-3.html",
+   "name": "Ofenblech-Hähnchen mit Kartoffeln und Gemüse"
   },
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-4",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-4",
-   "name": "Tomaten-Feta-Nudeln aus dem Ofen",
-   "description": "Fünf Minuten Arbeit, dreißig Minuten Ofen: das Internet-Rezept, das wirklich funktioniert. Warum Kirschtomaten und ein Feta-Block sein müssen, warum der Knoblauch ganz bleibt und wie die Wartezeit den Abend danach frei macht.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "500 g Kirschtomaten",
-    "1 Block Feta (200 g)",
-    "400 g kurze Nudeln (Penne, Rigatoni)",
-    "3 Knoblauchzehen",
-    "5 EL Olivenöl",
-    "1 TL getrockneter Oregano",
-    "½ TL Chiliflocken (optional)",
-    "Salz, Pfeffer",
-    "1 Handvoll Basilikum oder Petersilie",
-    "optional: 1 Handvoll Spinat, Oliven"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-04_Tomaten-Feta-Nudeln.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 4,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-4.html",
+   "name": "Tomaten-Feta-Nudeln aus dem Ofen"
   },
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-5",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-5",
-   "name": "Wraps mit Bohnen und Mais",
-   "description": "Fünfzehn Minuten, kein Herd: ein Abendessen aus Dose, Kühlschrank und Tortillas. Warum Bohnen abgespült werden müssen, warum Kreuzkümmel den Unterschied macht, wie man einen Wrap rollt, der hält — und warum der Tisch die Arbeit übernimmt.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "8 große Weizen-Tortillas (ca. 25 cm)",
-    "1 Dose Kidney- oder schwarze Bohnen (400 g)",
-    "1 Dose Mais (300 g)",
-    "2 Tomaten, 1 rote Zwiebel",
-    "1 Avocado (optional)",
-    "150 g Schmand oder griechischer Joghurt",
-    "1 Limette",
-    "1 TL Kreuzkümmel, 1 TL Paprikapulver",
-    "100 g geriebener Käse",
-    "1 kleiner Eisberg- oder Romanasalat · Salz, Pfeffer, Chili"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-05_Wraps-Bohnen-Mais.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 5,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-5.html",
+   "name": "Wraps mit Bohnen und Mais"
   },
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-6",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-6",
-   "name": "Pfannkuchen herzhaft und süß",
-   "description": "Ein Teig, zwei Gerichte und ein Kind, das wirklich mitkocht. Das Verhältnis, das man sich merken kann, warum der Teig zehn Minuten stehen muss, der Zwei-Pfannen-Trick und wie zwölf Pfannkuchen vom Sonntag den Dienstag retten.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "250 g Mehl",
-    "3 Eier",
-    "500 ml Milch",
-    "1 Prise Salz, 1 EL Zucker (für die süße Hälfte)",
-    "Butter oder Öl zum Braten",
-    "Herzhaft: 150 g geriebener Käse",
-    "100 g Schinken oder gebratene Champignons",
-    "1 Handvoll Spinat oder Rucola",
-    "Süß: Apfelmus, Zimt und Zucker, Marmelade, 1 Banane"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-06_Pfannkuchen.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 6,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-6.html",
+   "name": "Pfannkuchen herzhaft und süß"
   },
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-7",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-7",
-   "name": "Linseneintopf für vier",
-   "description": "Vier Personen, ein Topf, 3,57 Euro. Warum Tellerlinsen nicht eingeweicht werden, warum Salz und Essig erst ans Ende gehören, wie geräuchertes Paprikapulver die Würstchen ersetzt — und warum die doppelte Menge Zeit und Geld spart.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "400 g Tellerlinsen",
-    "500 g Kartoffeln, festkochend",
-    "1 Bund Suppengrün",
-    "1 Zwiebel",
-    "1 EL Tomatenmark",
-    "1,5 l Gemüsebrühe",
-    "2 EL Öl, 2 EL Essig",
-    "Geräuchertes Paprikapulver, Majoran, Lorbeer"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-07_Linseneintopf.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 7,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-7.html",
+   "name": "Linseneintopf für vier"
   },
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-8",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-8",
-   "name": "Nudeln mit Brokkoli und Knoblauch",
-   "description": "Genau vier Euro für vier Teller: ganzer Brokkoli samt Strunk, im selben Topf wie die Nudeln, eine Soße aus Knoblauchöl und Nudelwasser — und der Parmesan der armen Leute aus gerösteten Semmelbröseln.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "500 g Orecchiette oder Spaghetti",
-    "1 Brokkoli (ca. 500 g)",
-    "4 Zehen Knoblauch",
-    "5 EL Olivenöl",
-    "½ TL Chiliflocken",
-    "1 Zitrone",
-    "40 g Hartkäse",
-    "4 EL Semmelbrösel"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-08_Brokkoli-Nudeln.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 8,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-8.html",
+   "name": "Nudeln mit Brokkoli und Knoblauch"
   },
   {
-   "@type": "Recipe",
-   "@id": "https://phoeser.github.io/topf-und-tempo/#folge-9",
-   "url": "https://phoeser.github.io/topf-und-tempo/#folge-9",
-   "name": "Bauernfrühstück aus Kartoffelresten",
-   "description": "Das Finale der Budget-Reihe mit fünf Cent Luft: Kartoffeln vom Vortag, Speck, Zwiebeln und Ei aus einer Pfanne. Warum Bratkartoffeln kalt in die Pfanne müssen, warum man sie fünf Minuten nicht anfasst — und wie eingeplante Reste Zeit und Geld sparen.",
-   "author": {
-    "@type": "Organization",
-    "name": "Topf & Tempo",
-    "url": "https://phoeser.github.io/topf-und-tempo/"
-   },
-   "image": "https://phoeser.github.io/topf-und-tempo/marketing/Display_1080x1080.png",
-   "recipeYield": "4 Portionen",
-   "recipeCategory": "Hauptgericht",
-   "recipeCuisine": "Deutsch",
-   "recipeIngredient": [
-    "800 g Pellkartoffeln vom Vortag",
-    "6 Eier",
-    "1 Zwiebel",
-    "125 g Speckwürfel",
-    "4 Gewürzgurken",
-    "1 Bund Frühlingszwiebeln",
-    "2 EL Butterschmalz",
-    "3 EL Milch"
-   ],
-   "inLanguage": "de",
-   "audio": {
-    "@type": "AudioObject",
-    "contentUrl": "https://phoeser.github.io/topf-und-tempo/audio/Folge-09_Bauernfruehstueck.mp3",
-    "encodingFormat": "audio/mpeg"
-   },
-   "isPartOf": {
-    "@type": "PodcastSeries",
-    "name": "Topf & Tempo",
-    "url": "https://open.spotify.com/show/4b9mKGp43hKHWoVJnmaYRd"
-   }
+   "@type": "ListItem",
+   "position": 9,
+   "url": "https://phoeser.github.io/topf-und-tempo/rezepte/folge-9.html",
+   "name": "Bauernfrühstück aus Kartoffelresten"
   }
  ]
 }
@@ -669,6 +383,7 @@
           <h3>One-Pot-Pasta mit Tomate und Spinat</h3>
           <div class="ep-meta">9:24 · für 4 Personen · ein weiter Topf mit Deckel, kein Abgießen</div>
           <p class="desc">Nudeln, Soße und Gemüse in einem einzigen Durchgang. Warum das Nudelwasser die beste Soßenbasis ist, wie viel Zucker in die Tomate darf und welcher Handgriff acht Kirschtomaten in einem Zug halbiert.</p>
+          <a class="ep-link" href="rezepte/folge-1.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-01_One-Pot-Pasta.mp3"></audio>
           <details>
             <summary>Zutaten &amp; Kapitel</summary>
@@ -765,6 +480,7 @@
           <h3>Kichererbsen-Curry mit Kokosmilch</h3>
           <div class="ep-meta">8:36 · für 4 Personen · drei Dosen, zwei Töpfe</div>
           <p class="desc">Drei Dosen, eine Zwiebel, fertig. Warum Gewürze ins Öl gehören und nicht in die Flüssigkeit, warum der Reis zuerst aufgesetzt wird und welcher Spritzer am Ende den größten Unterschied macht.</p>
+          <a class="ep-link" href="rezepte/folge-2.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-02_Kichererbsen-Curry.mp3"></audio>
           <details>
             <summary>Zutaten &amp; Kapitel</summary>
@@ -868,6 +584,7 @@
           <h3>Ofenblech-Hähnchen mit Kartoffeln und Gemüse</h3>
           <div class="ep-meta">8:28 · für 4 Personen · 10 Min Arbeit, 40 Min Ofen</div>
           <p class="desc">Das Gericht, bei dem du die Küche verlassen darfst. Warum Keule besser ist als Brust, warum ein zu volles Blech alles ruiniert und wie ein zweites Blech den nächsten Kochabend überflüssig macht.</p>
+          <a class="ep-link" href="rezepte/folge-3.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-03_Ofenblech-Haehnchen.mp3"></audio>
           <details>
             <summary>Zutaten &amp; Kapitel</summary>
@@ -952,6 +669,7 @@
           <h3>Tomaten-Feta-Nudeln aus dem Ofen</h3>
           <div class="ep-meta">8:11 · für 4 Personen · 5 Min Arbeit, 30 Min Ofen</div>
           <p class="desc">Fünf Minuten Arbeit, dreißig Minuten Ofen: das Internet-Rezept, das wirklich funktioniert. Warum Kirschtomaten und ein Feta-Block sein müssen, warum der Knoblauch ganz bleibt und wie die Wartezeit den Abend danach frei macht.</p>
+          <a class="ep-link" href="rezepte/folge-4.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-04_Tomaten-Feta-Nudeln.mp3"></audio>
           <details>
             <summary>Zutaten &amp; Kapitel</summary>
@@ -1049,6 +767,7 @@
           <h3>Wraps mit Bohnen und Mais</h3>
           <div class="ep-meta">7:21 · für 4 Personen · 15 Min, kein Herd</div>
           <p class="desc">Fünfzehn Minuten, kein Herd: ein Abendessen aus Dose, Kühlschrank und Tortillas. Warum Bohnen abgespült werden müssen, warum Kreuzkümmel den Unterschied macht, wie man einen Wrap rollt, der hält — und warum der Tisch die Arbeit übernimmt.</p>
+          <a class="ep-link" href="rezepte/folge-5.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-05_Wraps-Bohnen-Mais.mp3"></audio>
           <details>
             <summary>Zutaten &amp; Kapitel</summary>
@@ -1139,6 +858,7 @@
           <h3>Pfannkuchen herzhaft und süß</h3>
           <div class="ep-meta">7:54 · für 4 Personen · ein Teig, zwei Gerichte</div>
           <p class="desc">Ein Teig, zwei Gerichte und ein Kind, das wirklich mitkocht. Das Verhältnis, das man sich merken kann, warum der Teig zehn Minuten stehen muss, der Zwei-Pfannen-Trick und wie zwölf Pfannkuchen vom Sonntag den Dienstag retten.</p>
+          <a class="ep-link" href="rezepte/folge-6.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-06_Pfannkuchen.mp3"></audio>
           <details>
             <summary>Zutaten &amp; Kapitel</summary>
@@ -1224,6 +944,7 @@
           <h3>Linseneintopf für vier</h3>
           <div class="ep-meta">7:42 · für 4 Personen · 3,57 € gesamt</div>
           <p class="desc">Vier Personen, ein Topf, 3,57 Euro. Warum Tellerlinsen nicht eingeweicht werden, warum Salz und Essig erst ans Ende gehören, wie geräuchertes Paprikapulver die Würstchen ersetzt — und warum die doppelte Menge Zeit und Geld spart.</p>
+          <a class="ep-link" href="rezepte/folge-7.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-07_Linseneintopf.mp3"></audio>
           <details>
             <summary>Zutaten, Preise &amp; Kapitel</summary>
@@ -1323,6 +1044,7 @@
           <h3>Nudeln mit Brokkoli und Knoblauch</h3>
           <div class="ep-meta">7:20 · für 4 Personen · 4,00 € gesamt</div>
           <p class="desc">Genau vier Euro für vier Teller: ganzer Brokkoli samt Strunk, im selben Topf wie die Nudeln, eine Soße aus Knoblauchöl und Nudelwasser — und der Parmesan der armen Leute aus gerösteten Semmelbröseln.</p>
+          <a class="ep-link" href="rezepte/folge-8.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-08_Brokkoli-Nudeln.mp3"></audio>
           <details>
             <summary>Zutaten, Preise &amp; Kapitel</summary>
@@ -1410,6 +1132,7 @@
           <h3>Bauernfrühstück aus Kartoffelresten</h3>
           <div class="ep-meta">7:22 · für 4 Personen · 4,95 € gesamt</div>
           <p class="desc">Das Finale der Budget-Reihe mit fünf Cent Luft: Kartoffeln vom Vortag, Speck, Zwiebeln und Ei aus einer Pfanne. Warum Bratkartoffeln kalt in die Pfanne müssen, warum man sie fünf Minuten nicht anfasst — und wie eingeplante Reste Zeit und Geld sparen.</p>
+          <a class="ep-link" href="rezepte/folge-9.html">Rezept &amp; Zutaten bestellen →</a>
           <audio controls preload="none" src="audio/Folge-09_Bauernfruehstueck.mp3"></audio>
           <details>
             <summary>Zutaten, Preise &amp; Kapitel</summary>
