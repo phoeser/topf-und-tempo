@@ -1,8 +1,8 @@
 # Topf & Tempo — Folge 18
 
 **Titel:** Allein in der Küche — Folge 2: Die Pfanne. Eier-Grundkurs
-**Länge:** 6:23 · **Sprecher:** MIRA · JONAS
-**Wortzahl:** 972
+**Länge:** 8:16 · **Sprecher:** MIRA · JONAS
+**Wortzahl:** 1276
 
 ---
 
@@ -64,6 +64,12 @@ Fürs Omelett, je nachdem, was da ist:
 **JONAS:** Ohne Diskussion.
 
 **MIRA:** Ohne Diskussion. Zwei Regeln noch: Eier gehören zu Hause in den Kühlschrank. Und nach dem Aufschlagen wäschst du dir die Hände. Auf der Schale können Keime sitzen, und die willst du nicht auf deinem Brot.
+
+**JONAS:** Und was ist mit dem Datum auf dem Karton?
+
+**MIRA:** Das ist das Mindesthaltbarkeitsdatum. Bis dahin isst du die Eier ganz normal, auch als weiches Rührei. Ist das Datum vorbei, dann nur noch komplett durchgegart. Also festes Rührei oder ein hart gekochtes Ei, nichts mehr mit flüssigem Eigelb.
+
+**JONAS:** Datum checken, Wasserglas, Kühlschrank. Dann kann es losgehen.
 
 ---
 
@@ -147,7 +153,39 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [05:00] Sicherheits-Minute
+## [05:00] Bonus — Das gekochte Ei
+
+**JONAS:** Eine Frage noch, bevor es gefährlich wird. Was ist mit dem Frühstücksei? Das kommt ja gar nicht in die Pfanne.
+
+**MIRA:** Stimmt, das kommt in den Topf. Ist aber so einfach, dass es heute als Bonus mit reinpasst.
+
+**JONAS:** Also Ei ins kalte Wasser und warten?
+
+**MIRA:** Besser andersrum. Erst bringst du das Wasser im Topf zum Kochen. Dann legst du das Ei mit einem Esslöffel vorsichtig hinein. Nicht reinplumpsen lassen, sonst knackt die Schale.
+
+**JONAS:** Und jetzt die große Frage: Wie lange?
+
+**MIRA:** Für ein mittelgroßes Ei direkt aus dem Kühlschrank: etwa sechs Minuten für weich, da ist das Eigelb noch flüssig. Etwa acht Minuten für wachsweich, da ist es cremig. Und etwa zehn Minuten für hart.
+
+**JONAS:** Sechs, acht, zehn. Das kann ich mir merken.
+
+**MIRA:** Und stell dir einen Timer. Nach Gefühl klappt das beim Ei nie.
+
+**JONAS:** Muss ich das Ei vorher anpiksen?
+
+**MIRA:** Kannst du, musst du aber nicht. Ein kleines Loch am breiten Ende hilft manchmal, dass die Schale nicht platzt. Wenn kein Eierpiekser da ist, lass es einfach weg.
+
+**JONAS:** Und wenn der Timer klingelt?
+
+**MIRA:** Ei mit dem Löffel rausholen und kurz unter kaltes Wasser halten. Das heißt abschrecken. So gart es nicht weiter, und du verbrennst dir beim Pellen nicht die Finger.
+
+**JONAS:** Und das harte Ei packe ich mir für morgen ein.
+
+**MIRA:** Gute Idee. Abgekühlt kommt es in den Kühlschrank und hält dort ein paar Tage. Das ist quasi Meal-Prep für Anfänger.
+
+---
+
+## [06:40] Sicherheits-Minute
 
 *[MUSIK: Kurzer Signalton]*
 
@@ -177,11 +215,15 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [06:15] Ausblick und Abschluss
+## [07:55] Ausblick und Abschluss
 
 **JONAS:** Was hast du jetzt drauf?
 
 **MIRA:** Drei Gerichte aus einem Zehnerpack. Rührei, Spiegelei, Omelett. Mittlere Hitze, rechtzeitig runter vom Herd, Deckel in Reichweite.
+
+**JONAS:** Plus das gekochte Ei als Bonus. Sechs, acht, zehn.
+
+**MIRA:** Also eigentlich vier Gerichte. Ich hab ja gesagt: mindestens drei.
 
 **JONAS:** Und nächsten Freitag?
 
@@ -199,6 +241,6 @@ Fürs Omelett, je nachdem, was da ist:
 
 **Topf & Tempo #18 — Allein in der Küche: Eier-Grundkurs**
 
-Teil zwei der Reihe für alle ab etwa 15, die allein zu Hause kochen: drei Gerichte aus einem Zehnerpack Eier, jedes in unter fünf Minuten und für rund einen Euro. Rührei, Spiegelei und Omelett als Resteverwerter für Käse, Schnittlauch und Gemüsereste. Dazu der Wasserglas-Test für frische Eier, der Tempo-Trick mit der mittleren Hitze und eine Sicherheits-Minute dazu, warum brennendes Fett niemals Wasser abbekommt.
+Teil zwei der Reihe für alle ab etwa 15, die allein zu Hause kochen: vier Gerichte aus einem Zehnerpack Eier, jedes für rund einen Euro. Rührei, Spiegelei, Omelett als Resteverwerter und als Bonus das gekochte Ei. Dazu der Wasserglas-Test für frische Eier, der Tempo-Trick mit der mittleren Hitze und eine Sicherheits-Minute dazu, warum brennendes Fett niemals Wasser abbekommt.
 
-**Kapitel:** 00:00 Einstieg · 00:10 Begrüßung · 00:55 Wissensmoment: der Wasserglas-Test · 01:38 Rührei · 02:28 Tempo-Trick: rechtzeitig vom Herd · 02:56 Spiegelei · 03:39 Omelett · 04:49 Sicherheits-Minute · 05:57 Ausblick und Abschluss
+**Kapitel:** 00:00 Einstieg · 00:10 Begrüßung · 00:55 Wissensmoment: der Wasserglas-Test · 02:00 Rührei · 02:51 Tempo-Trick: rechtzeitig vom Herd · 03:19 Spiegelei · 04:02 Omelett · 05:12 Bonus: das gekochte Ei · 06:35 Sicherheits-Minute · 07:43 Ausblick und Abschluss

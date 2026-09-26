@@ -1,8 +1,8 @@
 # Topf & Tempo — Folge 17
 
 **Titel:** Allein in der Küche — Folge 1: Der Herd. Tomaten-Pasta für eine Person
-**Länge:** 6:54 · **Sprecher:** MIRA · JONAS
-**Wortzahl:** ~1.002
+**Länge:** 8:17 · **Sprecher:** MIRA · JONAS
+**Wortzahl:** ~1.206
 
 ---
 
@@ -71,6 +71,34 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 **JONAS:** Heute also Tomaten-Pasta. Was brauche ich?
 
 **MIRA:** Hundertfünfundzwanzig Gramm Nudeln, also ein Viertel einer normalen Packung. Eine halbe Dose stückige Tomaten. Eine Knoblauchzehe. Einen Esslöffel Olivenöl. Und etwas geriebenen Käse. Dazu Salz und Pfeffer. Zusammen etwa ein Euro zwanzig.
+
+---
+
+## [01:50] Einkaufen mit Taschengeld
+
+**JONAS:** Ein Euro zwanzig klingt super. Aber im Laden gibt es keine Viertelpackung Nudeln.
+
+**MIRA:** Stimmt. Beim ersten Mal kaufst du eine Grundausstattung. Eine Packung Nudeln, eine Dose stückige Tomaten, eine Knolle Knoblauch, eine kleine Flasche Olivenöl und ein Stück Käse.
+
+**JONAS:** Und was kostet das?
+
+**MIRA:** Zusammen ungefähr zehn bis zwölf Euro. Das Öl ist der teuerste Posten, reicht aber für viele Wochen.
+
+**JONAS:** Zehn Euro für ein Abendessen? Dann kann ich ja doch den Lieferdienst nehmen.
+
+**MIRA:** Eben nicht. Die Packung Nudeln reicht für vier Portionen, die Dose für zwei, die Knolle Knoblauch für etwa zehn. Du bezahlst einmal und kochst viele Male davon. Rechnest du nur, was wirklich im Topf landet, bist du wieder bei etwa ein Euro zwanzig pro Portion.
+
+**JONAS:** Und das wird nicht schlecht?
+
+**MIRA:** Kaum. Nudeln, Dosentomaten und Öl halten ungeöffnet viele Monate. Knoblauch lagerst du trocken und luftig, nicht im Kühlschrank. Dann hält er ein paar Wochen.
+
+**JONAS:** Und der Käse?
+
+**MIRA:** Geriebener Käse aus der Tüte ist nach dem Öffnen schnell hinüber. Ein Stück Hartkäse hält im Kühlschrank wochenlang. Reiben kannst du ihn selbst.
+
+**JONAS:** Also bin ich jetzt offiziell Vorratsmanager.
+
+**MIRA:** Mit einem Regalbrett, ja. Noch ein Tipp: Nimm die Eigenmarke vom Supermarkt. Die schmeckt meistens genauso und kostet oft deutlich weniger.
 
 ---
 
@@ -218,6 +246,6 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 **Topf & Tempo #17 — Allein in der Küche, Folge 1: Tomaten-Pasta für eine Person**
 
-Auftakt der neuen Reihe für alle ab etwa 15, die allein zu Hause kochen: drei Folgen, drei Geräte, fertig vor den Herbstferien. Heute der Herd und eine Tomaten-Pasta für rund 1,20 € in 15 Minuten. Warum das Nudelwasser vor allem anderen auf den Herd gehört, wofür du eine Tasse davon aufhebst und wie die zweite Dosenhälfte zur nächsten Portion wird. Dazu die Sicherheits-Minute: Krallengriff, Topfgriffe nach innen, sicher abgießen und am Ende Herd aus.
+Auftakt der neuen Reihe für alle ab etwa 15, die allein zu Hause kochen: drei Folgen, drei Geräte, fertig vor den Herbstferien. Heute der Herd und eine Tomaten-Pasta für rund 1,20 € in 15 Minuten. Warum das Nudelwasser vor allem anderen auf den Herd gehört, wofür du eine Tasse davon aufhebst und wie die zweite Dosenhälfte zur nächsten Portion wird. Dazu die Sicherheits-Minute: Krallengriff, Topfgriffe nach innen, sicher abgießen und am Ende Herd aus. Neu: was die Grundausstattung vom Taschengeld kostet und wie lange sie hält.
 
-**Kapitel:** 00:00 Einstieg · 00:22 Begrüßung und ein Wort an die Eltern · 00:58 Die neue Reihe · 01:53 Tempo-Trick: Wasser zuerst · 02:34 Sicherheits-Minute · 03:52 Die Soße · 05:11 Abgießen und mischen · 06:13 Bonus und Ausblick
+**Kapitel:** 00:00 Einstieg · 00:22 Begrüßung und ein Wort an die Eltern · 00:58 Die neue Reihe · 01:53 Einkaufen mit Taschengeld · 03:16 Tempo-Trick: Wasser zuerst · 03:58 Sicherheits-Minute · 05:16 Die Soße · 06:35 Abgießen und mischen · 07:37 Bonus und Ausblick

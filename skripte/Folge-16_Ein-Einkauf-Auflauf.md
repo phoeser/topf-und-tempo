@@ -1,8 +1,8 @@
 # Topf & Tempo — Folge 16
 
 **Titel:** Ein Einkauf, drei Abende — Abend 3: Kartoffel-Hack-Auflauf aus der Rest-Bolognese
-**Länge:** 6:00 · **Sprecher:** MIRA · JONAS
-**Wortzahl:** ~950
+**Länge:** 8:24 · **Sprecher:** MIRA · JONAS
+**Wortzahl:** ~1320
 
 ---
 
@@ -146,7 +146,47 @@ Aus dem Vorrat:
 
 ---
 
-## [06:00] Bilanz der Reihe und Abschluss
+## [06:30] Häufige Fehler beim Auflauf
+
+**JONAS:** Und was geht bei einem Auflauf am häufigsten schief?
+
+**MIRA:** Drei Klassiker. Erstens: Die Kartoffelscheiben sind zu dick. Alles über einen halben Zentimeter wird in fünfunddreißig Minuten nicht gar, auch nicht vorgegart.
+
+**JONAS:** Also lieber zu dünn als zu dick.
+
+**MIRA:** Genau. Zweitens: Der Guss ist zu flüssig. Wer mehr Milch nimmt als im Rezept oder die Kartoffeln nach dem Abgießen nicht abtropfen lässt, bekommt unten eine Pfütze statt einer cremigen Schicht.
+
+**JONAS:** Und drittens?
+
+**MIRA:** Zu früh anschneiden. Der Auflauf riecht fantastisch, alle stehen mit der Gabel da, und beim ersten Stück läuft alles auseinander.
+
+**JONAS:** Erwischt. Das war ich, letzten Sonntag, mit einer Lasagne.
+
+**MIRA:** Deshalb die fünf Minuten Ruhe. Die gehören zum Rezept wie der Ofen.
+
+---
+
+## [07:20] Richtig auftauen und aufwärmen
+
+**JONAS:** Noch eine Frage zum Auftauen. Warum eigentlich im Kühlschrank? Auf der Arbeitsplatte geht es doch schneller.
+
+**MIRA:** Schneller, ja. Aber bei Zimmertemperatur taut die Soße von außen nach innen. Außen ist sie schon stundenlang warm, innen noch ein Eisblock. Und in der warmen Außenschicht vermehren sich Keime.
+
+**JONAS:** Und im Kühlschrank passiert das nicht?
+
+**MIRA:** Da bleibt alles schön kalt, auch wenn es eine Nacht dauert. Deshalb: abends vom Tiefkühler in den Kühlschrank, am nächsten Tag kochen. Am besten in einer Schüssel, falls die Dose tropft.
+
+**JONAS:** Und wenn ich die Soße dann doch nicht brauche? Wieder zurück ins Eisfach?
+
+**MIRA:** Nein. Was einmal aufgetaut ist, wird aufgebraucht. Genau deshalb ist der Auflauf so praktisch: Er verbraucht alles auf einmal.
+
+**JONAS:** Und die Reste vom Auflauf?
+
+**MIRA:** Abgedeckt in den Kühlschrank, sobald er abgekühlt ist. Nicht über Nacht auf dem Herd stehen lassen. Und beim Aufwärmen richtig heiß machen, bis es auch in der Mitte dampft. Lauwarm ist kein Aufwärmen, das ist nur ein Vorschlag.
+
+---
+
+## [08:10] Bilanz der Reihe und Abschluss
 
 **JONAS:** Lass uns abrechnen. Was ist vom Einkauf übrig?
 
@@ -155,6 +195,18 @@ Aus dem Vorrat:
 **JONAS:** Drei Abendessen für vier, achtzehn Euro einunddreißig.
 
 **MIRA:** Gut anderthalb Euro pro Portion. Und das Prinzip in einem Satz: Kauf Zutaten, die sich in mehreren Gerichten wiederfinden, und plane die Reste von Anfang an mit.
+
+**JONAS:** Und wie mache ich das in einer ganz normalen Woche, ohne dass du mir drei Folgen lang die Rezepte vorgibst?
+
+**MIRA:** Mit dem Einkaufszettel. Plane zuerst ein Gericht, das man gut doppelt kochen kann. Eine Soße, ein Curry, einen Eintopf. Die zweite Hälfte kommt in den Tiefkühler.
+
+**JONAS:** Und die anderen Abende?
+
+**MIRA:** Schau, was schon auf dem Zettel steht. Kartoffeln, Eier, Käse, Zwiebeln. Daraus baust du die anderen Gerichte, statt für jeden Abend neu einzukaufen. Jede Zutat soll mindestens zweimal vorkommen.
+
+**JONAS:** Das klingt nach Hausaufgabe.
+
+**MIRA:** Zehn Minuten am Sonntag. Dafür stehst du drei Abende lang nicht ratlos vor dem Kühlschrank.
 
 **JONAS:** Die Zutaten stehen in den Shownotes. Nächste Woche gibt es ein neues Thema. Bis dahin: guten Appetit.
 
@@ -166,6 +218,6 @@ Aus dem Vorrat:
 
 **Topf & Tempo #16 — Ein Einkauf, drei Abende: Kartoffel-Hack-Auflauf**
 
-Finale der Reihe: Aus der eingefrorenen Bolognese von Folge 14, dem restlichen Kilo Kartoffeln, Eiern, Milch und Käse wird ein Kartoffel-Hack-Auflauf. Warum die Kartoffeln fünf Minuten vorgegart werden, wie man richtig schichtet und warum ein Auflauf fünf Minuten ruhen muss. Bilanz: drei Abendessen für vier für 18,31 €.
+Finale der Reihe: Aus der eingefrorenen Bolognese von Folge 14, dem restlichen Kilo Kartoffeln, Eiern, Milch und Käse wird ein Kartoffel-Hack-Auflauf. Warum die Kartoffeln fünf Minuten vorgegart werden, wie man richtig schichtet und warum ein Auflauf fünf Minuten ruhen muss. Bilanz: drei Abendessen für vier für 18,31 €. Neu: die häufigsten Fehler beim Auflauf und wie man Reste richtig auftaut und aufwärmt.
 
-**Kapitel:** 00:00 Einstieg · 00:25 Willkommen · 01:26 Kartoffeln vorgaren · 01:40 Tempo-Trick: fünf Minuten Wasser · 02:55 Der Guss · 03:46 Schichten · 04:50 Servieren und Varianten · 05:23 Bilanz und Abschluss
+**Kapitel:** 00:00 Einstieg · 00:25 Willkommen · 01:26 Kartoffeln vorgaren · 01:40 Tempo-Trick: fünf Minuten Wasser · 02:55 Der Guss · 03:46 Schichten · 04:50 Servieren und Varianten · 05:23 Häufige Fehler beim Auflauf · 06:08 Richtig auftauen und aufwärmen · 07:12 Bilanz und Abschluss

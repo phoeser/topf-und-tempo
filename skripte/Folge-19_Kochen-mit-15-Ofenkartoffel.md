@@ -1,8 +1,8 @@
 # Topf & Tempo — Folge 19
 
 **Titel:** Allein in der Küche — Folge 3: Der Ofen. Ofenkartoffel mit Kräuterquark
-**Länge:** 6:41 · **Sprecher:** MIRA · JONAS
-**Wortzahl:** 983
+**Länge:** 8:15 · **Sprecher:** MIRA · JONAS
+**Wortzahl:** 1209
 
 ---
 
@@ -69,6 +69,14 @@ Aus dem Vorrat:
 **JONAS:** Was machst du als Erstes?
 
 **MIRA:** Ofen an. Zweihundert Grad, Ober- und Unterhitze. Der braucht ein paar Minuten zum Aufheizen, und in der Zeit bereitest du alles vor. Das ist wie beim Nudelwasser in Folge siebzehn: Das Gerät, das am längsten braucht, wird zuerst eingeschaltet.
+
+**JONAS:** Und wenn unser Ofen nur Umluft kann?
+
+**MIRA:** Auch gut. Bei Umluft stellst du etwa zwanzig Grad weniger ein, also hundertachtzig Grad. Der Ventilator verteilt die Hitze, deshalb reicht weniger. Die Garzeit bleibt ungefähr gleich. Das Symbol dafür ist meistens ein kleiner Ventilator.
+
+**JONAS:** Und muss ich wirklich warten, bis er heiß ist?
+
+**MIRA:** Bei Kartoffeln lohnt es sich. Dann brutzelt die Schnittfläche sofort los und klebt weniger fest. Und die Zeit auf dem Timer stimmt nur, wenn der Ofen schon heiß ist.
 
 ---
 
@@ -148,6 +156,26 @@ Aus dem Vorrat:
 
 ---
 
+## [05:45] Drei Toppings statt Quark
+
+**JONAS:** Und wenn ich Kräuterquark irgendwann nicht mehr sehen kann?
+
+**MIRA:** Dann wechselst du das Topping. Kartoffel und Ofen bleiben gleich, nur obendrauf kommt was anderes. Variante eins: Knoblauchquark. Eine kleine Knoblauchzehe schälen, ganz fein hacken und unter den Kräuterquark rühren. Wirklich nur eine kleine. Roher Knoblauch ist ziemlich kräftig.
+
+**JONAS:** Variante zwei?
+
+**MIRA:** Quark mit Paprikapulver und Gurke. Ein Stück Gurke klein würfeln und mit einem Teelöffel edelsüßem Paprikapulver unter den Quark rühren. Der wird dann orange und schmeckt schön frisch.
+
+**JONAS:** Und Variante drei? Bitte sag Käse.
+
+**MIRA:** Käse. Wenn die Gabel bei der Garprobe schon leicht reingeht: Blech raus, Hälften mit dem Pfannenwender umdrehen, Schnittfläche nach oben. Eine Handvoll geriebenen Käse drauf und noch fünf Minuten zurück in den Ofen. Dann ist er geschmolzen und hat braune Stellen.
+
+**JONAS:** Und dabei an die Sicherheits-Minute denken.
+
+**MIRA:** Genau. Das Blech ist jetzt richtig heiß. Handschuh, zur Seite, Brett. Du kennst das schon.
+
+---
+
 ## [05:25] Dein Wochenplan für allein
 
 **JONAS:** Mira, das war jetzt die dritte Folge. Was kann man damit?
@@ -184,6 +212,6 @@ Aus dem Vorrat:
 
 **Topf & Tempo #19 — Allein in der Küche, Folge 3: Ofenkartoffel mit Kräuterquark**
 
-Der Abschluss unserer Reihe für alle ab etwa 15, die allein zu Hause kochen: Ofenkartoffel mit Kräuterquark für eine Person und rund 1,50 €. Warum halbierte Kartoffeln mit der Schnittfläche nach unten in 30 statt 60 Minuten fertig sind, wie die Garprobe mit der Gabel funktioniert, und in der Sicherheits-Minute: warum ein nasses Geschirrtuch am Ofen nichts zu suchen hat. Dazu dein Wochenplan für allein mit allen drei Gerichten der Reihe, als Einladung für die Herbstferien.
+Der Abschluss unserer Reihe für alle ab etwa 15, die allein zu Hause kochen: Ofenkartoffel mit Kräuterquark für eine Person und rund 1,50 €. Warum halbierte Kartoffeln mit der Schnittfläche nach unten in 30 statt 60 Minuten fertig sind, wie die Garprobe mit der Gabel funktioniert, und in der Sicherheits-Minute: warum ein nasses Geschirrtuch am Ofen nichts zu suchen hat. Dazu dein Wochenplan für allein mit allen drei Gerichten der Reihe, als Einladung für die Herbstferien. Neu: drei Toppings statt Quark und was bei Umluft anders ist.
 
-**Kapitel:** 00:00 Einstieg · 00:19 Begrüßung · 01:06 Zutaten und Ofen an · 02:12 Tempo-Trick: halbieren und umdrehen · 03:15 Sicherheits-Minute · 04:24 Kräuterquark und Garprobe · 05:40 Dein Wochenplan für allein · 06:22 Ausblick und Abschluss
+**Kapitel:** 00:00 Einstieg · 00:19 Begrüßung · 01:06 Zutaten und Ofen an · 02:43 Tempo-Trick: halbieren und umdrehen · 03:46 Sicherheits-Minute · 04:55 Kräuterquark und Garprobe · 06:11 Drei Toppings statt Quark · 07:15 Dein Wochenplan für allein · 07:56 Ausblick und Abschluss

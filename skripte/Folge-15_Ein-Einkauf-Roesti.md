@@ -1,8 +1,8 @@
 # Topf & Tempo — Folge 15
 
 **Titel:** Ein Einkauf, drei Abende — Abend 2: Kartoffel-Karotten-Rösti mit Schnittlauch-Schmand
-**Länge:** 6:33 · **Sprecher:** MIRA · JONAS
-**Wortzahl:** ~950
+**Länge:** 8:22 · **Sprecher:** MIRA · JONAS
+**Wortzahl:** ~1250
 
 ---
 
@@ -148,7 +148,31 @@ Aus dem Vorrat:
 
 ---
 
-## [06:20] Varianten und Abschluss
+## [06:20] Häufige Fehler
+
+**JONAS:** Bevor wir essen: Was geht bei Rösti am häufigsten schief?
+
+**MIRA:** Fehler Nummer eins kennst du schon: Die Masse ist zu nass. Das passiert auch, wenn sie nach dem Mischen lange herumsteht. Das Salz zieht nämlich wieder Wasser aus den Kartoffeln. Also mischen und dann gleich braten.
+
+**JONAS:** Und Fehler Nummer zwei?
+
+**MIRA:** Die Pfanne ist zu kalt. Dann saugt sich die Kartoffel mit Öl voll, statt zu bräunen. Mein Test: einen einzelnen Kartoffelfaden ins Öl legen. Zischt es sofort, kann es losgehen. Bleibt es still, noch eine Minute warten.
+
+**JONAS:** Ich wende immer zu früh. Ich bin einfach neugierig.
+
+**MIRA:** Das ist Fehler Nummer drei. Solange die Unterseite nicht fertig ist, klebt der Rösti fest und reißt beim Wenden. Wenn der Rand goldbraun wird und er sich beim Rütteln der Pfanne bewegt, ist er bereit. Vorher gilt: Finger weg.
+
+**JONAS:** Und beim Öl? Lieber viel oder lieber wenig?
+
+**MIRA:** Zwei Esslöffel pro Durchgang, dann ist der Boden gut bedeckt. Zu wenig Öl, und die Rösti werden fleckig und trocken. Zu viel, und sie schwimmen und werden fettig. Vor jedem neuen Durchgang nachgießen und kurz warten, bis es wieder heiß ist.
+
+**JONAS:** Macht die Kartoffelsorte eigentlich einen Unterschied?
+
+**MIRA:** Ja. Festkochende Kartoffeln, wie wir sie gekauft haben, halten ihre Form. Die Fäden bleiben Fäden, und daraus werden die knusprigen Ränder. Mehlige Kartoffeln haben mehr Stärke und binden gut, werden aber eher weich. Die gehen auch, dann aber besonders gründlich auswringen.
+
+---
+
+## [07:30] Varianten und Abschluss
 
 **JONAS:** Und für die, die es süß mögen?
 
@@ -157,6 +181,10 @@ Aus dem Vorrat:
 **JONAS:** Und Reste?
 
 **MIRA:** Übrige Rösti am nächsten Tag im Toaster oder im Ofen aufknuspern, nicht in der Mikrowelle. Die macht sie weich.
+
+**JONAS:** Und kann man Rösti auch einfrieren?
+
+**MIRA:** Ja, aber nur fertig gebraten. Abkühlen lassen, nebeneinander auf dem Blech vorfrieren, dann in einen Beutel. So kleben sie nicht zusammen und halten etwa zwei bis drei Monate. Zum Aufwärmen gefroren aufs Blech, bei zweihundert Grad zehn bis fünfzehn Minuten. Rohe Masse bitte nicht einfrieren, die wird grau und wässrig.
 
 **JONAS:** Was ist jetzt noch vom Einkauf übrig?
 
@@ -172,6 +200,6 @@ Aus dem Vorrat:
 
 **Topf & Tempo #15 — Ein Einkauf, drei Abende: Kartoffel-Karotten-Rösti**
 
-Abend zwei aus dem 18,31-€-Einkauf: Kartoffel-Karotten-Rösti mit Schnittlauch-Schmand, komplett vegetarisch. Warum grob gerieben wird, warum ein Küchentuch über knusprig oder matschig entscheidet, und warum fertige Rösti auf ein Blech im Ofen gehören statt auf einen Teller.
+Abend zwei aus dem 18,31-€-Einkauf: Kartoffel-Karotten-Rösti mit Schnittlauch-Schmand, komplett vegetarisch. Warum grob gerieben wird, warum ein Küchentuch über knusprig oder matschig entscheidet, und warum fertige Rösti auf ein Blech im Ofen gehören statt auf einen Teller. Neu: die häufigsten Fehler bei Rösti und wie man sie einfriert.
 
-**Kapitel:** 00:00 Einstieg · 00:27 Willkommen · 01:54 Reiben · 02:23 Das Küchentuch · 03:35 Tempo-Trick: das warme Blech · 04:36 Braten · 05:14 Schnittlauch-Schmand · 05:55 Varianten und Abschluss
+**Kapitel:** 00:00 Einstieg · 00:27 Willkommen · 01:54 Reiben · 02:23 Das Küchentuch · 03:35 Tempo-Trick: das warme Blech · 04:36 Braten · 05:14 Schnittlauch-Schmand · 05:55 Häufige Fehler · 07:25 Varianten und Abschluss
