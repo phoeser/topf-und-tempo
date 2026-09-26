@@ -36,7 +36,7 @@ Aus dem Vorrat:
 
 ---
 
-## [00:25] Begrüßung
+## [00:19] Begrüßung
 
 **MIRA:** Topf und Tempo, Folge neunzehn. Ich bin Mira.
 
@@ -54,7 +54,7 @@ Aus dem Vorrat:
 
 ---
 
-## [01:15] Zutaten und Ofen an
+## [01:06] Zutaten und Ofen an
 
 **MIRA:** Du brauchst zwei große Kartoffeln, am besten festkochend oder vorwiegend festkochend. Das steht auf dem Netz. Dazu einen Esslöffel Öl, einen kleinen Becher Quark, das sind hundertfünfundzwanzig Gramm, und Schnittlauch oder tiefgekühlte Kräuter. Außerdem einen Schluck Milch, Salz und Pfeffer.
 
@@ -80,7 +80,7 @@ Aus dem Vorrat:
 
 ---
 
-## [02:15] Tempo-Trick der Woche
+## [02:43] Tempo-Trick der Woche
 
 **JONAS:** Eine ganze Ofenkartoffel braucht doch ewig.
 
@@ -104,7 +104,7 @@ Aus dem Vorrat:
 
 ---
 
-## [03:15] Sicherheits-Minute
+## [03:46] Sicherheits-Minute
 
 **JONAS:** Zeit für die Sicherheits-Minute.
 
@@ -132,7 +132,7 @@ Aus dem Vorrat:
 
 ---
 
-## [04:20] Kräuterquark und Garprobe
+## [04:55] Kräuterquark und Garprobe
 
 **JONAS:** Und der Quark?
 
@@ -156,7 +156,7 @@ Aus dem Vorrat:
 
 ---
 
-## [05:45] Drei Toppings statt Quark
+## [06:11] Drei Toppings statt Quark
 
 **JONAS:** Und wenn ich Kräuterquark irgendwann nicht mehr sehen kann?
 
@@ -176,7 +176,7 @@ Aus dem Vorrat:
 
 ---
 
-## [05:25] Dein Wochenplan für allein
+## [07:15] Dein Wochenplan für allein
 
 **JONAS:** Mira, das war jetzt die dritte Folge. Was kann man damit?
 
@@ -192,7 +192,7 @@ Aus dem Vorrat:
 
 ---
 
-## [06:05] Ausblick und Abschluss
+## [07:56] Ausblick und Abschluss
 
 **JONAS:** Und was kommt nächsten Freitag?
 

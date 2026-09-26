@@ -36,7 +36,7 @@ Aus dem Vorrat:
 
 ---
 
-## [00:30] Begrüßung
+## [00:25] Begrüßung
 
 **MIRA:** Topf und Tempo, Folge sechzehn. Ich bin Mira.
 
@@ -54,7 +54,7 @@ Aus dem Vorrat:
 
 ---
 
-## [01:20] Schritt 1 — Kartoffeln vorgaren
+## [01:26] Schritt 1 — Kartoffeln vorgaren
 
 **MIRA:** Ofen auf zweihundert Grad Ober- und Unterhitze. Ein Kilo Kartoffeln schälen und in dünne Scheiben schneiden, etwa drei Millimeter.
 
@@ -64,7 +64,7 @@ Aus dem Vorrat:
 
 ---
 
-## [01:50] Tempo-Trick der Woche
+## [01:40] Tempo-Trick der Woche
 
 **JONAS:** Und der wäre?
 
@@ -88,7 +88,7 @@ Aus dem Vorrat:
 
 ---
 
-## [03:10] Schritt 2 — Der Guss
+## [02:55] Schritt 2 — Der Guss
 
 **MIRA:** Drei Eier, zweihundertfünfzig Milliliter Milch, die Hälfte vom Käse, Salz, Pfeffer, eine Prise Muskat. Mit dem Schneebesen verquirlen.
 
@@ -106,7 +106,7 @@ Aus dem Vorrat:
 
 ---
 
-## [03:50] Schritt 3 — Schichten
+## [03:46] Schritt 3 — Schichten
 
 **MIRA:** Jetzt schichten. Unten eine Lage Kartoffeln, dachziegelartig. Darauf die Hälfte der Bolognese und die Zwiebelringe. Dann wieder Kartoffeln, dann die restliche Bolognese, und oben eine letzte Schicht Kartoffeln.
 
@@ -128,7 +128,7 @@ Aus dem Vorrat:
 
 ---
 
-## [05:20] Servieren und Varianten
+## [04:50] Servieren und Varianten
 
 **MIRA:** In Stücke schneiden, mit Schnittlauch bestreuen. Dazu passt ein einfacher Salat, wenn noch etwas im Kühlschrank ist.
 
@@ -146,7 +146,7 @@ Aus dem Vorrat:
 
 ---
 
-## [06:30] Häufige Fehler beim Auflauf
+## [05:23] Häufige Fehler beim Auflauf
 
 **JONAS:** Und was geht bei einem Auflauf am häufigsten schief?
 
@@ -166,7 +166,7 @@ Aus dem Vorrat:
 
 ---
 
-## [07:20] Richtig auftauen und aufwärmen
+## [06:08] Richtig auftauen und aufwärmen
 
 **JONAS:** Noch eine Frage zum Auftauen. Warum eigentlich im Kühlschrank? Auf der Arbeitsplatte geht es doch schneller.
 
@@ -186,7 +186,7 @@ Aus dem Vorrat:
 
 ---
 
-## [08:10] Bilanz der Reihe und Abschluss
+## [07:12] Bilanz der Reihe und Abschluss
 
 **JONAS:** Lass uns abrechnen. Was ist vom Einkauf übrig?
 

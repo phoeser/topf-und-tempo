@@ -38,7 +38,7 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 ---
 
-## [00:30] Begrüßung und ein Wort an die Eltern
+## [00:22] Begrüßung und ein Wort an die Eltern
 
 **MIRA:** Topf und Tempo, Folge siebzehn. Ich bin Mira.
 
@@ -56,7 +56,7 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 ---
 
-## [01:05] Die neue Reihe
+## [00:58] Die neue Reihe
 
 **MIRA:** Also, hallo. Die Reihe heißt: Allein in der Küche. Sie ist für dich, wenn du nachmittags oder abends allein zu Hause bist und etwas Richtiges essen willst.
 
@@ -74,7 +74,7 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 ---
 
-## [01:50] Einkaufen mit Taschengeld
+## [01:53] Einkaufen mit Taschengeld
 
 **JONAS:** Ein Euro zwanzig klingt super. Aber im Laden gibt es keine Viertelpackung Nudeln.
 
@@ -102,7 +102,7 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 ---
 
-## [01:50] Tempo-Trick: Wasser zuerst
+## [03:16] Tempo-Trick: Wasser zuerst
 
 **JONAS:** Und womit fange ich an? Knoblauch schneiden?
 
@@ -122,7 +122,7 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 ---
 
-## [02:30] Sicherheits-Minute
+## [03:58] Sicherheits-Minute
 
 *[MUSIK: kurzer Signalton]*
 
@@ -154,7 +154,7 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 ---
 
-## [03:45] Die Soße
+## [05:16] Die Soße
 
 **JONAS:** Das Wasser kocht.
 
@@ -186,7 +186,7 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 ---
 
-## [05:00] Abgießen und mischen
+## [06:35] Abgießen und mischen
 
 **JONAS:** Der Timer klingelt.
 
@@ -218,7 +218,7 @@ Für zwei Personen alles verdoppeln (ganze Dose, 250 g Nudeln).
 
 ---
 
-## [05:55] Bonus und Ausblick
+## [07:37] Bonus und Ausblick
 
 **JONAS:** Was ist mit der anderen halben Dose?
 

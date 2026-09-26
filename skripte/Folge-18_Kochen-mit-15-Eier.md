@@ -33,7 +33,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [00:20] Begrüßung
+## [00:10] Begrüßung
 
 **MIRA:** Topf und Tempo, Folge achtzehn. Ich bin Mira.
 
@@ -51,7 +51,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [01:05] Wissensmoment — Der Wasserglas-Test
+## [00:55] Wissensmoment — Der Wasserglas-Test
 
 **JONAS:** Bevor wir anfangen: Woher weiß ich, ob meine Eier noch gut sind?
 
@@ -73,7 +73,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [01:50] Technik 1 — Rührei
+## [02:00] Technik 1 — Rührei
 
 **MIRA:** Zwei oder drei Eier in eine Schüssel schlagen, eine Prise Salz, mit der Gabel verquirlen, bis alles gleichmäßig gelb ist.
 
@@ -95,7 +95,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [02:40] Tempo-Trick der Woche
+## [02:51] Tempo-Trick der Woche
 
 **MIRA:** Nimm die Pfanne vom Herd, wenn das Rührei noch leicht feucht aussieht. Nicht flüssig, aber glänzend.
 
@@ -109,7 +109,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [03:10] Technik 2 — Spiegelei
+## [03:19] Technik 2 — Spiegelei
 
 **JONAS:** Spiegelei. Bei mir ist da immer Schale drin.
 
@@ -129,7 +129,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [03:55] Technik 3 — Omelett
+## [04:02] Technik 3 — Omelett
 
 **JONAS:** Und jetzt der Resteverwerter.
 
@@ -153,7 +153,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [05:00] Bonus — Das gekochte Ei
+## [05:12] Bonus — Das gekochte Ei
 
 **JONAS:** Eine Frage noch, bevor es gefährlich wird. Was ist mit dem Frühstücksei? Das kommt ja gar nicht in die Pfanne.
 
@@ -185,7 +185,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [06:40] Sicherheits-Minute
+## [06:35] Sicherheits-Minute
 
 *[MUSIK: Kurzer Signalton]*
 
@@ -215,7 +215,7 @@ Fürs Omelett, je nachdem, was da ist:
 
 ---
 
-## [07:55] Ausblick und Abschluss
+## [07:43] Ausblick und Abschluss
 
 **JONAS:** Was hast du jetzt drauf?
 

@@ -40,7 +40,7 @@ Aus dem Vorrat:
 
 ---
 
-## [00:30] Begrüßung
+## [00:27] Begrüßung
 
 **MIRA:** Topf und Tempo, Folge fünfzehn. Ich bin Mira.
 
@@ -62,7 +62,7 @@ Aus dem Vorrat:
 
 ---
 
-## [01:40] Schritt 1 — Reiben
+## [01:54] Schritt 1 — Reiben
 
 **MIRA:** Kartoffeln schälen, Karotten schälen. Alles grob reiben. Die Zwiebel fein würfeln oder ebenfalls reiben.
 
@@ -76,7 +76,7 @@ Aus dem Vorrat:
 
 ---
 
-## [02:30] Schritt 2 — Das Küchentuch
+## [02:23] Schritt 2 — Das Küchentuch
 
 **JONAS:** Und jetzt das berühmte Küchentuch.
 
@@ -100,7 +100,7 @@ Aus dem Vorrat:
 
 ---
 
-## [03:30] Tempo-Trick der Woche
+## [03:35] Tempo-Trick der Woche
 
 **JONAS:** Also, die andere Hälfte des Tricks.
 
@@ -116,7 +116,7 @@ Aus dem Vorrat:
 
 ---
 
-## [04:40] Schritt 3 — Braten
+## [04:36] Schritt 3 — Braten
 
 **MIRA:** Pfanne, reichlich Öl, zwei Esslöffel pro Durchgang, mittlere bis hohe Hitze. Pro Rösti einen gehäuften Esslöffel Masse in die Pfanne, mit dem Pfannenwender flach drücken. Nicht dicker als ein halber Zentimeter.
 
@@ -130,7 +130,7 @@ Aus dem Vorrat:
 
 ---
 
-## [05:40] Schritt 4 — Schnittlauch-Schmand
+## [05:14] Schritt 4 — Schnittlauch-Schmand
 
 **MIRA:** Während die Rösti braten: zweihundert Gramm Schmand in eine Schüssel, den halben Bund Schnittlauch in feine Röllchen, eine Knoblauchzehe fein gerieben, Salz, Pfeffer, ein Spritzer Zitronensaft oder Essig. Verrühren.
 
@@ -148,7 +148,7 @@ Aus dem Vorrat:
 
 ---
 
-## [06:20] Häufige Fehler
+## [05:55] Häufige Fehler
 
 **JONAS:** Bevor wir essen: Was geht bei Rösti am häufigsten schief?
 
@@ -172,7 +172,7 @@ Aus dem Vorrat:
 
 ---
 
-## [07:30] Varianten und Abschluss
+## [07:25] Varianten und Abschluss
 
 **JONAS:** Und für die, die es süß mögen?
 
