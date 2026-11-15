@@ -220,9 +220,9 @@ Aus dem Vorrat:
 
 **MIRA:** Rund eine halbe Stunde. Wenn das Rollen beim ersten Mal noch hakt, ein paar Minuten mehr. Beim zweiten Mal geht es schneller.
 
-**JONAS:** Nächsten Freitag startet bei uns eine neue Reihe. Mehr verraten wir noch nicht.
+**JONAS:** Ab jetzt gibt es uns sonntags. Nächsten Sonntag wird es warm im Topf, mehr verraten wir noch nicht.
 
-**MIRA:** Die Zutaten stehen in den Shownotes. Bis nächsten Freitag: guten Appetit.
+**MIRA:** Die Zutaten stehen in den Shownotes. Bis nächsten Sonntag: guten Appetit.
 
 **JONAS:** Und der letzte Satz der Reihe gehört dir.
 
